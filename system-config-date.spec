@@ -25,7 +25,7 @@
 Summary: A graphical interface for modifying system date and time
 Name: system-config-date
 Version: 1.9.60
-Release: 2%{?dist}
+Release: 3%{?dist}
 URL: http://fedorahosted.org/%{name}
 License: GPLv2+
 Group: System Environment/Base
@@ -35,6 +35,10 @@ Source0: http://fedorahosted.org/released/%{name}/%{name}-%{version}.tar.bz2
 # don't crash on invalid locale (#760977)
 # upstream commit 368fdbe35da91d2cdd693684acd92915f7bc6c59
 Patch0: system-config-date-1.9.60-invalid-locale-crash.patch
+Patch1: system-config-date-replace-spaces-with-underscores-when-writing-ZONE-va.patch
+Patch2: system-config-date-set-time-zone-before-date-time-651882.patch
+Patch3: system-config-date-catch-unavailable-display-766936.patch
+Patch4: system-config-date-update-translations-814582.patch
 # Until version 1.9.34, system-config-date contained online documentation.
 # From version 1.9.35 on, online documentation is split off into its own
 # package system-config-date-docs. The following ensures that updating from
@@ -80,6 +84,10 @@ synchronize the time of the system with an NTP time server.
 %prep
 %setup -q
 %patch0 -p1 -b .invalid-locale-crash
+%patch1 -p1
+%patch2 -p1
+%patch3 -p1
+%patch4 -p1
 
 %build
 make \
@@ -133,6 +141,12 @@ fi
 #%{python_sitelib}/scdate.dbus-%{version}-py%{python_version}.egg-info
 
 %changelog
+* Wed Nov  2 2016 Jan Synáček <jsynacek@redhat.com> - 1.9.60-3
+- replace spaces with underscores when writing ZONE variable into /etc/sysconfig/clock (#956284)
+- set time zone before date/time (#622494)
+- catch unavailable display (#676336)
+- update translations (#814582)
+
 * Wed Jun 19 2013 Nils Philippsen <nils@redhat.com> - 1.9.60-2
 - don't crash on invalid locale (#760977)
 

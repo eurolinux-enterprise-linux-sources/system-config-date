@@ -1,0 +1,32 @@
+From d9630e525da75698ae0ade2f6a364302c6c04eb9 Mon Sep 17 00:00:00 2001
+From: Nils Philippsen <nils@redhat.com>
+Date: Mon, 10 Dec 2012 14:38:58 +0100
+Subject: [PATCH 3/4] catch unavailable display (#766936)
+
+Resolves: #676336
+---
+ src/system-config-date.py |    8 ++++++++
+ 1 files changed, 8 insertions(+), 0 deletions(-)
+
+diff --git a/src/system-config-date.py b/src/system-config-date.py
+index c77e736..3aa22cd 100755
+--- a/src/system-config-date.py
++++ b/src/system-config-date.py
+@@ -43,6 +43,14 @@ Reserved options:
+ """))
+ 
+ def useGuiMode(page):
++    try:
++        __import__("gtk")
++    except RuntimeError, e:
++        raise SystemExit(_("Error while initializing GUI toolkit: %(error)s\n"
++            "This program must be run in a graphical environment.") %
++            dict(error=str(e)))
++        sys.exit(1)
++
+     import scdMainWindow
+ 
+     scdMainWindow.scdMainWindow(page).stand_alone()
+-- 
+1.7.1
+

@@ -1,0 +1,26 @@
+From e594584032a92447a839c903eb933928a0eaba49 Mon Sep 17 00:00:00 2001
+From: Jan Synacek <jsynacek@redhat.com>
+Date: Wed, 26 Oct 2016 06:30:20 -0400
+Subject: [PATCH 1/4] replace spaces with underscores when writing ZONE variable into /etc/sysconfig/clock
+
+Resolves: #956284
+---
+ src/scdate/core/timezoneBackend.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/src/scdate/core/timezoneBackend.py b/src/scdate/core/timezoneBackend.py
+index 806aaaa..65bdd5b 100644
+--- a/src/scdate/core/timezoneBackend.py
++++ b/src/scdate/core/timezoneBackend.py
+@@ -56,7 +56,7 @@ class timezoneBackend(object):
+         f.write ("# The time zone of the system is defined by the contents of /etc/localtime.\n")
+         f.write ("# This file is only for evaluation by system-config-date, do not rely on its\n")
+         f.write ("# contents elsewhere.\n")
+-        f.write('ZONE="%s"\n' % timezone)
++        f.write('ZONE="%s"\n' % timezone.replace(' ', '_'))
+         f.close()
+ 
+         if self._adjtimeHasUTCInfo:
+-- 
+1.7.1
+

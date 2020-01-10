@@ -1,0 +1,48 @@
+From 8f65ee4a6e3ed3b55d15e6a33c4dab5dd7a32b03 Mon Sep 17 00:00:00 2001
+From: Nils Philippsen <nils@redhat.com>
+Date: Wed, 10 Nov 2010 15:46:58 +0100
+Subject: [PATCH 2/4] set time zone before date/time (#651882)
+
+Resolves: #622494
+---
+ src/scdMainWindow.py |   17 +++++++++--------
+ 1 files changed, 9 insertions(+), 8 deletions(-)
+
+diff --git a/src/scdMainWindow.py b/src/scdMainWindow.py
+index 6339318..ec81f2b 100644
+--- a/src/scdMainWindow.py
++++ b/src/scdMainWindow.py
+@@ -79,6 +79,14 @@ class scdMainWindow(object):
+         sysTime = self.datePage.getTime ()
+         ntpEnabled = self.datePage.getNtpEnabled ()
+ 
++        # Get the time zone info from the time zone page
++        if "timezone" in self.showPages:
++            timezone, utc = self.timezonePage.getTimezoneInfo ()
++        else:
++            timezone, utc = self.timezoneBackend.getTimezoneInfo ()
++
++        self.timezoneBackend.writeConfig (timezone, utc)
++
+         if ntpEnabled == False:
+             # We're not using ntp, so stop the service
+             self.dateBackend.stopNtpService ()
+@@ -179,14 +187,7 @@ class scdMainWindow(object):
+ 
+             self.dateBackend.chkconfigOn ()
+ 
+-        # Get the time zone info from the time zone page
+-        if "timezone" in self.showPages:
+-            timezone, utc = self.timezonePage.getTimezoneInfo ()
+-        else:
+-            timezone, utc = self.timezoneBackend.getTimezoneInfo ()
+-
+-        self.timezoneBackend.writeConfig (timezone, utc)
+-
++        # Quit the standalone app
+         if self.closeParent == True and not self.firstboot:
+             if gtk.__dict__.has_key ("main_quit"):
+                 gtk.main_quit ()
+-- 
+1.7.1
+
