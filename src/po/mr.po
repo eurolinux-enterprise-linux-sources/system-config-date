@@ -1,0 +1,305 @@
+# translation of mr.po to Marathi
+# Marathi translations for system-config-date package.
+# Copyright (C) 2004 Free Software Foundation
+# This file is distributed under the same license as the system-config-date package.
+#
+# Automatically generated, 2004.
+# Pallavi Nikam <nikam.pallavi@gmail.com>, 2005.
+# sandeep shedmake <sandeepshedmake@yahoo.co.in>, 2006.
+# Rahul Bhalerao <rahul.bhalerao@redhat.com>, 2007.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: mr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 15:49+0200\n"
+"PO-Revision-Date: 2010-08-02 14:19+0530\n"
+"Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
+"Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "सर्व्हर"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP initscript (%s) योग्यरीत्या काम करत नाही असे प्रतित होत आहे.  initscript मध्ये "
+"बदल झालेले आहेत का हे बघण्यासाठी 'rpm -V ntp' सुरु करुन पहा.  system-config-date आता "
+"बंद होइल."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "चूक"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "NTP सर्व्हर '%s' संपर्कात आहे का याची तपासणी होत आहे..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"NTP सर्व्हर '%s' संपर्कात आहे का याची तपासणी तुम्ही रद्द केली. परिणाम दिसण्याकरीता "
+"तुम्ही केलेले बदल तुम्हाला नक्की लागू करायचे आहे का?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"संचालक '%s' संपर्कात नाही किंवा NTP सर्व्हर म्हणून कार्यरत नाही. परिणाम दिसण्याकरीता "
+"तुम्ही केलेले बदल तुम्हाला नक्की लागू करायचे आहे का?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "नवीन NTP सर्व्हर"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "दिनांक व वेळ"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "प्रणालीची तारीख आणि वेळ बदलवा"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"कोणत्याही टाइम सर्व्हर्सशी जोडणी होऊ शकत नाही:\n"
+"\n"
+"%s\n"
+"\n"
+"एकतर कोणतेही उपलब्ध नाही किंवा तुमच्या संगणकावरील फायरवॉलच्या रचना NTP च्या जोडणीस "
+"अडथळा आणत आहेत.\n"
+"\n"
+"तुम्हास तुमची व्यूहरचनेत या समस्येस सोडवण्यासाठी बदल करावयाचे आहेत काय?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "वेळ व दिनांक निश्चित करण्यास अपयशी."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"हार्डवेअर घड्याळ जुळविण्यास अपयशी. याचे कारण असे की प्राप्य एकही हार्डवेअर घड्याळ नसावे, "
+"उ.दा. आभासी वातावरणात कार्यत असतेवेळी."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr ""
+"वापर करण्यासाठी किंवा NTP प्रसारण कार्यान्वीत करणे शक्य होण्यासाठी कृपया NTP सर्व्हर "
+"नमूद करा."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"/etc/ntp.conf किंवा /etc/sysconfig/network यांस सुधारीत करणे शक्य नाही.\n"
+"संरचना बदलली नाही."
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "NTP सर्व्हिस सुरू करत आहे. कृपया प्रतीक्षा करा."
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr "मदत प्रदर्शक आढळले नाही. मदत पहाण्याकरीता तुम्हाला 'yelp' संकुल प्रतिष्ठापीत करावे लागेल."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"वापर: system-config-date [options]\n"
+"अंतिमउपयोगकर्ता पर्याय:\n"
+"-h|--help        हा मदतीचा संदेश दाखवा\n"
+"राखीव पर्याय:\n"
+"--page <page>    पृष्ठ दाखवा<page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "पर्याय '%s' ओळखले नाहीत\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "अभौगोलिक वेळक्षेत्र"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "नीवडलेले शहर: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "नीवडलेले शहर: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "कृपया तुमच्या वेळक्षेत्रात सर्वात जवळचे शहर निवडा:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "पॅनींग करीता बटण 2 किंवा 3 वापरा व मोठे किंवा लहान करण्याकरीता स्क्रोलचाक वापरा."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "तारीख/वेळ यांचे गुणधर्म"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "सध्याचे दिनांक व वेळ:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"जर तुम्हाला तुमच्या संगणकाचे घड्याळ NTP टाइम सर्व्हरशी जुळवायचे असेल तर तुम्ही हा पर्याय "
+"वापरा."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "नेटवर्कवरील दिनांक व वेळेची समजुळवणी करा (_y)"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "तुमच्या प्रणालीचे दिनांक व वेळ सेट करा:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>दिनांक (_D)</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "तास (_H) : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "मिनिट् (_M) : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "सेकंद (_S) : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>वेळ</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"संगणकावरील दिनांक व वेळ Network Time Protocol चा वापर करून दूरस्थ टाइम सर्व्हरशी "
+"समरित्या जुळवा:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP सर्व्हर्स्</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+"iburst मोडचा वापर करा ज्यामुळे प्राथमिक सिंक्रोनाइजेशनकरीता कमी वेळ लागतो परंतु "
+"सर्व्हरवर जास्त लोड निर्माण होतो."
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "प्राथमिक सिंक्रोनाइजेशनची गती वाढवा (_S)"
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"उदाहरणार्थ जर तुमच्याकडे रेडिओ नियंत्रीत घड्याळ असलेले उपकरण असेल जे तुमच्या संगणकाचे घड्याळ "
+"एका अधिकृत वेळेच्या उगमस्थानाशी एकाच वेळी जुळवणी करू शकते तर तुम्ही हा पर्याय वापरा."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "उगमस्थानानुसार स्थानिक वेळेचा वापर करा (_L)"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"जर तुमच्या संगणकाला स्थानिक सबनेटवरील NTP सर्व्हरकरीता प्रसारण करायचे असेल तर तुम्ही हा "
+"पर्याय वापरा."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP प्रसारण समर्थ करा (_B)"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "प्रगत पर्याय (_v)"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "दिनांक व वेळ (_T)"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"जर तुम्हास सामान्य आणि दिवाप्रकाश सुरक्षा वेळेत आपोआप बदल हवा असल्यास हे वापरा. जर "
+"तुमच्या संगणकावर दुसरी कार्यकारी प्रणाली असेल जी यासाठी हार्डवेयर घड्याळ व्यवस्थित करत "
+"असेल, उदा. Microsoft Windows(tm), तर हे वापरू नका."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "प्रणालीचे घड्याळ UTC चा वापर करते (_S)"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "वेळक्षेत्र (_Z)"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "दिनांक & वेळ"
+

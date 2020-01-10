@@ -1,0 +1,361 @@
+# translation of si.po to Sinhala
+# Sinhalese translations for PACKAGE package.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the system-config-date package.
+#
+# Automatically generated, 2004.
+# Tyronne Wickramarathne <tywickra@redhat.com>, 2006, 2007.
+# Danishka Navin <snavin@redhat.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: si\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2007-11-23 11:52+0530\n"
+"Last-Translator: Danishka Navin <snavin@redhat.com>\n"
+"Language-Team: Sinhala <en@li.org>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "සේවා දායකය"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP කේතරචනය(initscript) - (%s) නිසියාකාරව ක්‍රියා නොකරන බව හැගෙයි.  එය වෙනස් කර තිබේ "
+"දැයි දැනගැනීම සඳහා 'rpm -V ntp' විධානය ක්‍රියාත්මක කරන්න.  system-config-date "
+"වැඩසටහන මින් නික්මෙනු ඇත."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "දෝෂයකි"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "NTP සේවා දායකය '%s' වෙත ලඟා විය හැකිද යන වග පරීක්‍ෂා කරමින්ැක..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"NTP සේවා දායකය '%s' වෙත ලඟාවිය හැකි දැයි පරික්‍ෂා කරමින් සිටයදී ඔබ විසින් එය අවලංගු කර දමන "
+"ලදී. ඔබ විසින් කරන ලද වෙනස් කම් භාවිතයේ යෙදීමට ඔබට අවශ්‍ය වන්නෙහිද?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"'%s' ධාරකය වෙත ලඟා විය නොහැක නැතහොත් NTP සේවා දායකයක් ලෙස ක්‍රියා නොකරයි. ඔබ විසින් "
+"කරන ලද වෙනස් කම් භාවිතයේ යෙදීමට ඔබට අවශ්‍ය වන්නෙහිද?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "නව NTP සේවා දායකය"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "දිනය සහ වේලාව"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "පද්ධතියේ දිනය සහ වේලාව වෙනස් කරන්න"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"කිසිදු වේලා සටහන් සේවා දායකයක් සමඟ සම්බන්ධ වීමට නොහැකි විය:\n"
+"\n"
+"%s\n"
+"\n"
+"එම සේවා දායකයන් භාවිතයේ නොමැත, එසේත් නොමැති නම් ඔබේ ගිනි පවුරේ පරිස්ථිතිය මඟින් NTP "
+"සම්බන්ධතාවයන් වලකාලමින් සිටී. \n"
+"මෙම තත්වය නිරාකරණය කරගැනීම සඳහා ඔබේ මානකරනය වෙනස් කරගැනීමට ඔබට අවශ්‍යද ?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "දිනය සහ වේලාව සැකසීමට අසමත් විය."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "භාවිත කිරීම සඳහා NTP සේවා දායකයක් නම් කරන්න නැතහොත් NTP විකාශණය සක්‍රීය කරන්න."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"භාවිතා කරන අන්දම: system-config-date [options]\n"
+"පරිශීලක විකල්පයන්:\n"
+"-h|--help        මෙම උදව් සටහන දර්ශණය වේ\n"
+"වෙන්කර තිබෙන විකල්පයන්:\n"
+"--page <page>    දර්ශණය වන පිටුව<page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "'%s' විකල්පයන් හඳුනාගනු නොලැබීය\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "භූගෝලීයමය මත පදනම් නොවන හෝරා කලාපයන්"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "තෝරාගත් නගරය: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "තෝරාගත් නගරය: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "ඔබේ හෝරා කලාපය තුළ තිබෙන ඔබට ආසන්නතම නගරය තෝරන්න:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "දිනය/වේලාව සතු අංගයන්"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "දැනට ඇති දිනය සහ වේලාව:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"NTP හෝරා සේවා දායකයක් සමඟ ඔබේ පද්ධතියේ වේලාව සමකාලීන කරගැනීමට අවශ්‍ය නම් මෙම විකල්පය "
+"තෝරා ගන්න."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr ""
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "ඔබේ පද්ධතියේ දිනය සහ වේලාව ක්‍රමිකව සකසන්න:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>දිනය (_D)</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "හෝරාව(_H) : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "මිනිත්තුව(_M) : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "තත්පර(_S) : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>වේලාව</b>"
+
+#: ../src/system-config-date.glade:495
+#, fuzzy
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"ජාල හෝරා වාහකය (Network Time Protocol) භාවිත කර දුරස්ථ හෝරා සේවා දායකයක් සමඟ ඔබේ "
+"පද්ධතියේ වේලාව සමකාලීන කරගත හැක."
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP සේවා දායකයන්</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"උදාහරණයක් ලෙස : රේඩියෝ තරංග මඟින් පාලනය වන හෝරා උපාංගයක් ඔබේ පද්ධතියේ වේලාව බලයලත් "
+"වේලා මූලයක් මඟින් සමකාලීන කරගැනීමට අවශ්‍ය නම් මෙම විකල්පය තෝරාගන්න."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "දේශීය වේලා මූලාරම්භය භාවිත කරන්න(_L)"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"ඔබේ පරිගණකය උප ජාලයක් තුල NTP සේවා දායකයක් සඳහා විකාශණය කරන්නේ නම් මෙම විකල්පය තෝරා "
+"ගන්න."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP විකාශණය සක්‍රීය කරන්න(_B)"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "උසස් විකල්ප (_v)"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "දිනය සහ වේලාව (_T)"
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"ස්වයංක්‍රීයව සාමාන්‍ය සහ දිවා වේලාවන් අතර හුවමාරු වීමට අවශ්‍යනම් මෙය තෝරාගන්න. Microsoft "
+"Windows(tm) වැනි අනෙකුත් මෙහෙයුම් පද්ධති මෙම පරිගණකය තුල භාවිතා කරන්නේ නම් මෙය සුදුසු "
+"නොවෙයි, මක්නිසාද උක්ත කරුණ සපුරා ගනු පිණිස දෘඪාංගයේ වේලාව මෙමඟින් වෙනස් කරනු ලබයි."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "පද්ධතියේ_System clock uses UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "හෝරා කලාපය(_Z)"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "දිනය සහ වේලාව"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "NTP සේවා දායකය සම්බන්ධ කරගනිමින්.  කරුණාකර රැඳී සිටින්න..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "සේවය ආරම්භ වීමට ප්‍රථම පද්ධතියේ වේලාව හෝරා සේවා දායකය සමඟ සමකාලීන කරගැනීමට අවශ්‍ය "
+#~ "නම් මෙම විකල්පය තෝරාගන්න. නිරන්තරයෙන් ඔබේ හෝරා සේවා දායකය වෙත ලඟාවිය නොහැකි නම් මෙම "
+#~ "විකල්පය භාවිත නොකරන්න. උදාහරණයක් ලෙස : ජංගම පරිගණකයන් තුල, මක් නිසාද වේලාව නිකුත් වන "
+#~ "තුරු සමකාලීන ක්‍රියාවලිය අවහිර වනු ඇත."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "සේවාව ආරම්භ කිරීමට ප්‍රථම පද්ධතියේ වේලාව සමකාලීන කරන්න(_y)"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "සංකීර්ණ විකල්පයන් පෙන්වන්න (_S)"
+
+#~ msgid "Help is not available."
+#~ msgstr "උදව් ලබාගත නොහැක."
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "පාඨමය මාතයෙන් යුතු අතුරු මුහුණත \n"
+
+#~ msgid "OK"
+#~ msgstr "හරි"
+
+#~ msgid "Cancel"
+#~ msgstr "අවලංගු කරන්න"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "පද්ධතිය සඳහා හෝරා කලාපය තෝරන්න."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "පද්ධතියේ ඔරලෝසුව UTC භාවිත කරයි"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "හෝරා කලාපය තෝරා ගැනීම"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "timeconfig විධානය භාවිත කිරීමට ඔබ root පරිශීලක විය යුතුය."
+
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "හෝරා කලාපය පිටපත් කිරීමේදී දෝෂයක් ඇතිවිය (%s හි සිට): %s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "හෝරා කලාපයේ අවසරය වෙනස් කරමින්: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "/var/spool/postfix/etc/localtime ඉවත් කිරීමේදී දෝශයක් ඇතිවිය"
+
+#~ msgid "_Date"
+#~ msgstr "දිනය(_D)"
+
+#~ msgid "Current Time : "
+#~ msgstr "වර්තමාන වේලාව : "
+
+#~ msgid "Time"
+#~ msgstr "වේලාව"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "ජාල වේලා වාහකය සක්‍රීය කරන්න(_N)"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "ජාල වේලා වාහකය(_w)"

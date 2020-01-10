@@ -1,0 +1,307 @@
+# translation of system-config-date.master.po to
+# Copyright (C) 2001 Red Hat Inc.
+# BETTINA DE MONTI <bdemonti@redhat.it>, 2001.
+# Francesco Valente <fvalen@redhat.com>, 2003, 2004.
+# Lorenzo Stobbione <lorenzo.stobbione@clsengineering.it>, 2004, 2005.
+# Francesco Tombolini <tombo@adamantio.net>, 2005, 2006, 2007, 2008.
+# Daniele Catanesi <translate@ccielogs.com>, 2009.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 15:49+0200\n"
+"PO-Revision-Date: 2010-08-02 11:02+1000\n"
+"Last-Translator: \n"
+"Language-Team:  <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Server"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"L' initscript NTP (%s) non sembra funzionare correttamente.  Provare ad "
+"eseguire 'rpm -V ntp' per vedere se l'initscript è stato modificato.  system-"
+"config-date ora verrà chiuso."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Errore"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Verifica raggiungibilità del server NTP '%s'..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Si è scelto di fermare la verifica di raggiungibilità del server NTP '%s'. "
+"Si desidera ancora che le modifiche abbiano effetto?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"L'host '%s' non è raggiungibile o non funziona come server NTP. Si desidera "
+"ancora che le modifiche abbiano effetto?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Nuovo server NTP"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Data e Ora"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Modifica data ed ora del sistema"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Impossibile stabilire un collegamento con uno di questi time server:\n"
+"\n"
+"%s\n"
+"\n"
+"È possibile che nessuno di essi sia disponibile, o che le impostazioni del "
+"firewall presenti sul computer blocchino le connessioni NTP.\n"
+"\n"
+"Si desidera modificare ora la configurazione per risolvere questo problema?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "Impossibile impostare data ed ora."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"Impossibile sincronizzare l'orologio hardware. Potrebbe accadere se non c'è "
+"un orologio hardware accessibile, es. quando si è in esecuzione in un "
+"ambiente virtualizzato."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Specificare un server NTP da usare o abilitare il broadcast NTP."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"Impossibile scrivere /etc/ntp.conf o /etc/sysconfig/network.\n"
+"Configurazione non modificata."
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "Avvio servizio NTP. Attendere prego."
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"Il visualizzatore di aiuto non può essere trovato. Per essere in grado di "
+"visualizzare l'aiuto è necessario installare il pacchetto 'yelp'."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Utilizzo: system-config-date [options]\n"
+"Opzioni utente:\n"
+"-h|--help        Visualizza questo messaggio d'aiuto\n"
+"Opzioni riservate:\n"
+"--page <page>    Visualizza pagina <page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "Opzione(i) '%s' non riconosciuta\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Fusi non geografici"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Città selezionata: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "Città selezionata: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Selezionare la città più vicina compresa nel proprio fuso orario:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "Usare il bottone 2 o 3 per scorrere e la rotellina per ingrandire o ridurre."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Proprietà data/ora"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Data ed ora corrente:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Utilizzare questa opzione se si desidera mantenere l'orologio del proprio "
+"computer sincronizzato con un server NTP."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "_Sincronizza data e ora tramite rete"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Impostare manualmente la data e l'ora del sistema:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Data</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_Ora : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Minuti : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Secondi : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Ora</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"Sincronizzare la data e l'ora del computer con un time server utilizzando il "
+"Network Time Protocol:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>Server NTP</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+"Usare la modalità iburst la quale richiede meno tempo per una sincronizzazione "
+"iniziale, generando però un carico maggiore sui server."
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "(_S) Velocizza la sincronizzazione iniziale"
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Utilizzare questa opzione se si ha, ad esempio, un dispositivo radio "
+"controllato che sincronizza l'orologio del proprio computer con una fonte "
+"autorevole per l'orario."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Utilizzare il _Local Time Source"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Utilizzare questa opzione se il computer deve eseguire broadcast sulla "
+"sottorete locale per ricercare un server NTP."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "Abilita il _Broadcast NTP"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "Opzioni a_vanzate"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "Data e _Ora"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Usare questa funzione se si desidera cambiare automaticamente fra l'ora "
+"normale e l'ora legale. Non utilizzare questa funzione se sono presenti su "
+"questo computer altri sistemi operativi, che modificano l'orologio hardware "
+"per ottenerla, es. Microsoft Windows(tm)."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "L'orologio di _sistema usa UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "_Fuso orario"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Data e ora"
+

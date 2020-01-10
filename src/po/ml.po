@@ -1,0 +1,304 @@
+# translation of system-config-date.master.ml.po to
+# translation of ml.po to
+# This file is distributed under the same license as the system-config-date package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ani Peter <apeter@redhat.com>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date.master.ml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 15:49+0200\n"
+"PO-Revision-Date: 2010-08-03 12:48+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "സര്‍വര്‍"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP initscript (%s) ശരിയായി പ്രവര്‍ത്തിക്കുന്നില്ല.  initscript-ല്‍ പരിവര്‍ത്തനങ്ങള്‍ "
+"വരുത്തിയത് കാണുന്നതിനായി 'rpm -V ntp' പ്രവര്‍ത്തിക്കാന്‍ ശ്രമിക്കുക.  system-config-date "
+"ഇപ്പോള്‍ നില്‍ക്കുന്നതാണ്."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "പിശക്"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "NTP സര്‍വര്‍'%s' ലഭ്യമാണോ എന്ന് പരിശോധിക്കുന്നു..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"NTP സര്‍വര്‍ %s' ലഭ്യമാണോ എന്ന പരിശോധന നിങ്ങള്‍ റദ്ദാക്കിയിരിക്കുന്നു.നിങ്ങള്‍ വരുത്തിയിരിക്കുന്ന "
+"മാറ്റങ്ങള്‍ ഇനിയും സംരക്ഷിക്കണമോ?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"ഹോസ്റ്റ് '%s' ലഭ്യമല്ല അല്ലെങ്കില്‍ അത് ഒരു NTP സര്‍വറായി ലഭ്യമല്ല. നിങ്ങള്‍ വരുത്തിയിരിക്കുന്ന "
+"മാറ്റങ്ങള്‍ ഇനിയും സംരക്ഷിക്കണമോ?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "പുതിയ NTP സര്‍വര്‍"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "തീയതിയും സമയവും"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "കമ്പ്യൂട്ടറിലെ തീയതിയും സമയവും മാറ്റുക"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"ഈ ടൈം സര്‍വറുകളൊന്നുമായി തന്നെ കണക്റ്റ് ചെയ്യുവാന്‍ സാധിക്കുന്നില്ല:\n"
+"\n"
+"%s\n"
+"\n"
+"ഒന്നെങ്കില്‍ ഒരു സര്‍വറുകളും ലഭ്യമല്ല അല്ലെങ്കില്‍ നിങ്ങളുടെ കമ്പ്യൂട്ടറിലുള്ള ഫയര്‍വോള്‍ സജ്ജീകരണങ്ങള്‍ "
+"NTP കണക്ഷനുകള്‍ക്ക് തടസ്സം നില്‍ക്കുന്നു.\n"
+"\n"
+"ഇത് ശരിയാക്കുന്നതിനായി നിങ്ങള്‍ക്ക് ക്രമീകരണത്തില്‍ മാറ്റം വരുത്തണമോ?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "സമയവും തീയതിയും ക്രമീകരിക്കുന്നതില്‍ പരാജയം."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"ഹാര്‍ഡ്‌വെയര്‍ ക്ലോക്ക് സിന്‍ക്രൊണൈസ് ചെയ്യുന്നതില്‍ പരാജയം. ഹാര്‍ഡ്‌വെയര്‍ ക്ലോക്ക് ലഭ്യമല്ല എന്നതാവാം ഒരു "
+"പക്ഷേ കാരണം, ഉദാ. വിര്‍ച്ച്വലൈസ്ഡ് എന്‍വിറോണ്‍മെന്റില്‍ പ്രവര്‍ത്തിക്കുമ്പോള്‍."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "NTP സംപ്രേക്ഷണം പ്രവര്‍ത്തന സജ്ജമാക്കുക അഥവാ ഉപയോഗിക്കുന്നതിനായി ഒരു NTP സര്‍വര്‍ നിര്‍ദ്ദേശിക്കുക."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"/etc/ntp.conf അല്ലെങ്കില്‍ /etc/sysconfig/network സൂക്ഷിക്കുവാന്‍ സാധ്യമായില്ല.\n"
+"ക്രമീകരണം മാറ്റിയിട്ടില്ല."
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "NTP സര്‍വീസ് ആരംഭിയ്ക്കുന്നു. ദയവായി കാത്തിരിക്കുക."
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"സഹായം ലഭ്യമാക്കുന്ന പ്രയോഗം ലഭ്യമായില്ല. ഇതിനായി നിങ്ങള്‍ 'yelp' എന്ന പാക്കേജ് ഇന്‍സ്റ്റോള്‍ "
+"ചെയ്യേണ്ടതുണ്ട്."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"ഉപയോഗിക്കേണ്ട വിധം: system-config-date [ഉപാധികള്‍]\n"
+"ഉപയോഗിക്കുന്ന ആളിനുളള ഉപാധികള്‍:\n"
+"-h|--help        ഈ സഹായ സന്ദേശം പ്രദര്‍ശിപ്പിക്കുന്നു\n"
+"റിസേര്‍വ്ഡ് ആയ ഉപാധികള്‍:\n"
+"--page <page>    <page> എന്ന താള്‍ പ്രദര്‍ശിപ്പിക്കുന്നു\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "'%s' എന്ന ഉപാധി വ്യക്തമല്ല\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "നോണ്‍-ജിയോഗ്രാഫിക്ക് സമയമേഘലകള്‍"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "തെരഞ്ഞെടുത്ത സിറ്റി: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "തെരഞ്ഞെടുത്ത സിറ്റി: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "നിങ്ങളുടെ സമയമേഘലയില്‍ ഏറ്റവും അടത്തുള്ള ഒരു സിറ്റി ദയവായി തെരഞ്ഞെടുക്കുക:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"നീക്കുന്നതിനായി 2 അല്ലെങ്കില്‍ 3 എന്നീ ബട്ടണ്‍ ഉപയോഗിക്കുക. വലുതാക്കുന്നതിനും ചെറുതാക്കുന്നതിനും "
+"സ്ക്രോള്‍വീല്‍ ഉപയോഗിക്കുക."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "തീയതി/സമയം ഗുണഗണങ്ങള്‍"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "നിലവിലുള്ള തീയതിയും സമയവും:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"നിങ്ങളുടെ കമ്പ്യൂട്ടറിലെ ക്ലോക്കിന്റെ സമയവും NTP ടൈം സര്‍വറിന്റെ സമയവും ഒന്നാക്കുന്നതിനായി ഈ "
+"ഉപാധി ഉപയോഗിക്കുക."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "നെറ്റ്‌വര്‍ക്കില്‍ തീയതിയും സമയവും _ഒരേപോലെയാക്കുക"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "നിങ്ങളുടെ സിസ്റ്റത്തിന്റെ സമയവും തീയതിയും സ്വയം ക്രമീകരിക്കുക:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_തീയതി</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_മണിക്കൂര്‍ : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_മിനിട്ട് :"
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_സെക്കന്‍ഡ്: "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>സമയം</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"നെറ്റ്‌വര്‍ക്ക് ടൈം സമ്പ്രദായം ഉപയോഗിച്ചു് ഒരു വിദൂര ടൈം സര്‍വര്‍ വഴി നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ "
+"സമയവും തീയതിയും ഒരേപോലാക്കുക:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP സര്‍വറുകള്‍</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+"iburst മോഡ് ഉപയോഗിയ്ക്കുക. പ്രാരംഭ സിന്‍ക്രൊണൈസേഷനു് ഇതു് കുറച്ചു് സമയമെടുക്കുന്നു. "
+"പക്ഷേ സര്‍വറുകളില്‍ വളരെ ഭാരം കൂടുന്നു."
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "പ്രാരംഭ സിന്‍ക്രൊണൈസേഷന്റെ _വേഗത കൂട്ടുക"
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"നിങ്ങളുടെ കംപ്യൂട്ടറിന്റെ സമയം ഒരു അംഗീകാരമുളള സമയത്തിന്റെ ഉറവിടമായിഒത്തുപോകുന്നതിന് "
+"സഹായിക്കുന്ന ഒരു റേഡിയോ നിയന്ത്രണത്തിലുളള ക്ലോക്ക് ഉപകരണമുണ്ടെങ്കില്‍ ഈ ഉപാധി ഉപയോഗിക്കുക."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "_പ്രാദേശിക സമയത്തിനുളള ഉറവിടം ഉപയോഗിക്കുക"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"ഒരു NTP സര്‍വറിനായി നിങ്ങളുടെ കമ്പ്യൂട്ടര്‍ ലോക്കല്‍ സബ്‌നെറ്റില്‍ സംപ്രേക്ഷണം ചെയ്യണമെങ്കില്‍ ഈ "
+"ഉപാധി ഉപയോഗിക്കുക."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP _സംപ്രേക്ഷണം പ്രവര്‍ത്തന സജ്ജമാക്കുക"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "അധി_കമായ ഉപാധികള്‍"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "തീയതിയും _സമയവും"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"സാധാരണ സമയത്തില്‍ നിന്നും നിങ്ങള്‍ക്ക് ഡേ ലൈറ്റ് സേവിങ് സമയത്തേക്ക് സ്വയമായി മാറുന്നതിനായി "
+"ഇതുപയോഗിക്കുക.  ഹാര്‍ഡ്‌വെയര്‍ ക്ലോക്ക് ഉപയോഗിക്കുന്ന ഓപ്പറേറ്റിങ് സിസ്റ്റമുള്ളകമ്പ്യൂട്ടറാണിതെങ്കില് "
+"ഇതിനായി  ഉപയോഗിക്കരുു്്. ഉദാ, Microsoft Windows(tm)"
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "_കമ്പ്യൂട്ടറിലെ ക്ലോക്ക് UTC ഉപയോഗിക്കുന്നു "
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "സമയ _മേഘല"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "തീയതിയും സമയവും"
+

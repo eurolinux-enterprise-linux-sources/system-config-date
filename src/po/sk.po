@@ -1,0 +1,410 @@
+# Slovak translations for system-config-date package
+# Slovenské preklady pre balík system-config-date.
+# Copyright (C) 2004, 2005 Marcel Telka
+# This file is distributed under the same license as the system-config-date package.
+#
+# $Id: sk.po,v 1.27 2007/04/03 08:41:45 ondrejj Exp $
+#
+# Marcel Telka <marcel@telka.sk>, 2004, 2005.
+# Pavol Šimo <palo.simo@gmail.com>, 2008, 2009.
+# Ondrej Šulek <feonsu@gmail.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2010-04-15 17:22+0200\n"
+"Last-Translator: Ondrej Šulek <feonsu@gmail.com>\n"
+"Language-Team: Slovak <fedora-trans-sk@redhat.com>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Server"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"Zdá sa, že inicializačný skript NTP initscript (%s) nefunguje správne. "
+"Skúste spustiť 'rpm -V ntp', aby ste videli, či nebol inicializačný skript "
+"modifikovaný. system-config-date teraz skončí."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Chyba"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Kontrola, či je NTP server '%s' dosiahnuteľný..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Zrušili ste kontrolu, či je NTP server '%s' dosiahnuteľný. Stále chcete, aby "
+"sa vaše zmeny prejavili?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Hostiteľ '%s' nie je dosiahnuteľný alebo sa nespráva ako NTP server. Stále "
+"chcete, aby sa vaše zmeny prejavili?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Nový NTP server"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Dátum a čas"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Zmeniť systémový dátum a čas"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Nepodarilo sa spojiť s jedným z týchto časových serverov:\n"
+"\n"
+"%s\n"
+"\n"
+"Buď žiadny z nich nie je dostupný, alebo nastavenie firewallu vo vašom "
+"počítači blokuje NTP spojenia.\n"
+"\n"
+"Prajete si teraz zmeniť vaše nastavania pre preskočenie tohoto problému?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "Nastavenie času a dátumu zlyhalo."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"Synchronizácia hardvérových hodín zlyhala. Príčinou môže byť nedostupnosť "
+"hardvérových hodín, napríklad počas behu vo virtualizovanom prostredí."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr ""
+"Prosím, zadajte NTP server, ktorý chcete použiť, alebo povoľte NTP "
+"vysielanie."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"Nepodarilo sa nájsť prehliadač pomocníka. Pre zobrazenie pomocníka musíte "
+"nainštalovať balíček 'yelp'."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Použitie: system-config-date [voľby]\n"
+"Voľby koncového používateľa:\n"
+"-h|--help        Zobraziť túto správu pomocníka\n"
+"Rezervované voľby:\n"
+"--page <strana>  Zobraziť stranu <strana>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "voľby '%s' neboli rozpoznané\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Ne-geografické časové zóny"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Zvolené mesto: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "Zvolené mesto: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Prosím, vyberte najbližšie mesto vo vašej časovej zóne:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"Tlačidlom 2 alebo 3 posúvate, skrolovacím kolieskom približujete/vzďaľujete."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Vlastnosti dátumu a času"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Aktuálny dátum a čas:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Použite túto voľbu, ak chcete mať čas na počítači synchronizovaný s časovým "
+"NTP serverom."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "_Synchronizovať dátum a čas cez sieť"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Manuálne nastavenie dátumu a času v systéme:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Dátum</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_Hodina : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Minúta : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Sekunda : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"Synchronizovať dátum a čas v počítači so vzdialeným časovým serverom pomocou "
+"Network Time Protocol (NTP):"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP servery</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Použite túto voľbu, ak máte napr. rádiom riadené hodiny, ktoré synchronizujú "
+"čas vášho počítača s nejakým autoritatívnym zdrojom času."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Použiť _miestny zdroj času"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Použite túto voľbu, ak má váš počítač vyhľadať NTP server na lokálnej "
+"podsieti."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "Povoliť NTP _vysielanie"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "Pokročilé _voľby"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "Dá_tum a čas"
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Použite, ak chcete automaticky prepínať medzi letným a zimným časom. "
+"Nepouživajte, ak máte na tomto počítači iné operačné systémy upravujúce "
+"hardvérové hodiny pre prepínanie času, ako Microsoft Windows (tm)."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "Systémové hodiny používajú _UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "Č_asová zóna"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Dátum a čas"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Pripájanie k NTP serveru. Prosím čakajte..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Použite túto voľbu, ak chcete systémový čas zosynchronizovať s vašim "
+#~ "časovým serverom pred naštartovaním služby. Nepoužite túto voľbu, ak váš "
+#~ "časový server je obvykle nedosiahnuteľný, napr. na notebooku, pretože "
+#~ "synchronizácia sa môže zablokovat až do vypršania časového limitu."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "S_ynchronizovať systémový hodiny pred naštartovaním služby"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "Rozhranie v textovom režime je zastaralé\n"
+
+#~ msgid "OK"
+#~ msgstr "Ok"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušiť"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Zvoľte časovú zónu pre tento systém."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "Systémové hodiny používajú UTC"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Výber časovej zóny"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "Musíte byť správca, aby ste mohli spustiť timeconfig."
+
+#~ msgid "Synchronize date and time over the network"
+#~ msgstr "Synchronizovať dátum a čas cez sieť"
+
+#~ msgid "_Advanced Options"
+#~ msgstr "_Pokročilé možnosti"
+
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr "Chyba pri kopírovaní časovej zóny (z %(fromFile)s): %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "Zmena práv časovej zóny: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "Chyba pri odstraňovaní /var/spool/postfix/etc/localtime"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "Skryť _rozšírené voľby"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "Zobraziť _rozšírené voľby"
+
+#~ msgid "_Date"
+#~ msgstr "Dát_um"
+
+#~ msgid "Current Time : "
+#~ msgstr "Aktuálny čas: "
+
+#~ msgid "Time"
+#~ msgstr "Čas"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP servery"
+
+#~ msgid "Date & _Time"
+#~ msgstr "_Dátum a čas"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "Váš počítač môže synchronizovať svoje hodiny so vzdialeným časovým "
+#~ "serverom pomocou Sieťového časového protokolu (NTP)"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "Povoliť Sieťový časový protokol (_NTP)"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "_Sieťový časový protokol (NTP)"
+
+#~ msgid "Help is not available."
+#~ msgstr "Pomocník nie je dostupný."
+
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "Chyba pri kopírovaní časovej zóny (z %s): %s"
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Prosím, vyberte najbližšie mesto vo vašej časovej zóne:"
+
+#~ msgid "Magnification: small"
+#~ msgstr "Zväčšenie: malé"
+
+#~ msgid "large"
+#~ msgstr "veľké"
+
+#~ msgid "Use button 2 or 3 for panning"
+#~ msgstr "Použite tlačidlo 2 alebo 3 pre panorámovanie"
+
+#~ msgid "Please click into the map to choose a region:"
+#~ msgstr "Prosím, kliknite do mapy aby ste zvolili región:"

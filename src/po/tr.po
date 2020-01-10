@@ -1,0 +1,386 @@
+# translation of system-config-date_tr.po to
+# Erçin EKER <erc.caldera@gmx.net>, 2003.
+# Bahadir Yagan <bahadir.yagan@mentorsystem.com>, 2004, 2006.
+# Egemen Metin Turan <mturan@aegee-ankara.org>, 2006, 2007.
+# translation of tr.po to Turkish
+# $Id: tr.po,v 1.48 2007/03/19 02:25:47 nphilipp Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: tr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2007-01-25 15:12+0200\n"
+"Last-Translator: Egemen Metin Turan <mturan@aegee-ankara.org>\n"
+"Language-Team: Turkish <fedora-trans-tr@redhat.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.1\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Sunucu"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP' nin başlangıç betiği (%s) gerektiği gibi çalışmıyor görünüyor.  Şu "
+"komutu kullanarak bu dosyanın değişip değişmediğini öğrenin; 'rpm -V ntp'.  "
+"system- config-date şimdi kapanacak."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Hata"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "%s NTP sunucusunun erişilebilir olup olmadığı kontrol ediliyor..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"%s NTP sunucusunun erişilebilir olup olmadığını kontrol etmeyi iptal "
+"ettiniz. Değişikliklerinizin etkin olmasını hala istiyor musunuz?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"'%s' sunucusu erişilemiyor ya da NTP sunucusu olarak çalışmıyor. Yaptığınız "
+"değişikliklerin geçerli olmasını hala istiyor musunuz? "
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Yeni NTP Sunucusu"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr ""
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Sistem tarih ve zamanını değiştir"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Aşağıdaki zaman sunucularına bağlantı sağlanamadı:\n"
+"\n"
+"%s\n"
+"\n"
+"Ya hepsi hizmet dışı ya da güvenlik duvarı ayarlarınız NTP bağlantılarını "
+"engelliyor.\n"
+"\n"
+"Bu sorunu şimdi çözmek için ayarlarınızı değiştirmek ister misiniz?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr ""
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Kullanmak için bir NTP sunucusu belirleyin."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Kullanımı: system-config-date [seçenekler]\n"
+"Son kullanıcı seçenekleri:\n"
+"-h|--help        Bu yardım iletisini göster\n"
+"Ayrılmış seçenekler:\n"
+"--page <sayfa>    <sayfa> sayfasını göster\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "'%s'seçeneği(seçenekleri) tanımlanamadı\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Coğrafi olmayan zaman dilimleri"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ""
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr ""
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr ""
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+#, fuzzy
+msgid "Please select the nearest city in your time zone:"
+msgstr "Zaman diliminize en yakın şehri seçiniz:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Tarih/Saat Özellikleri"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr ""
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Eğer bilgisayarınızın saatini bir NTP zaman sunucusuyla eşlemek istiyorsanız "
+"bu seçeneği kullanın."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr ""
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr ""
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "Saat : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "Dakika : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "Saniye : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Eğer bilgisayarınızın saatini bir zaman kaynağıyla eşleyecek bağlı bir radyo "
+"kontrollü saat aygıtınız varsa bu seçeneği kullanın."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Yerel Zaman Kaynağı kullan"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Eğer bilgisayarınız yerel alt ağdaki bir NTP için yayın yapacaksa bu "
+"seçeneği kullanın."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP Yayını Etkinleştir"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr ""
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr ""
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Gün ışığından daha fazla yararlanmak amacı ile yapılan saat değişiklerinin "
+"otomatik yapılması için bunu kullanınız. Eğer bu bilgisayarda bu değişikliği "
+"yapmak için donanım saatini değiştirmesi gereken bir başka işletim sistemi , "
+"örneğin Microsoft Windows(tm) , daha varsa bu özelliği kullanmayınız."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "_Sistem saati UTC kullanıyor"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "_Zaman Dilimi"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Tarih ve Zaman"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Zaman sunucusuna bağlantı kuruluyor.  Lütfen bekleyiniz..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Eğer servis başlatılmadan önce bilgisayarınızın sistem saati zaman "
+#~ "sunucusu ile eşlenecekse bu seçeneği kullanın. Eğer zaman sunucunuza "
+#~ "düzenli olarak erişilemiyorsa, örneğin bir dizüstü bilgisayarda, eşleşme "
+#~ "zaman aşımı geçene kadar engelleme yapılacağından bu seçeneği "
+#~ "kullanmayın. "
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "Servisi başlatmadan önce bilgisayarın sistem saatini eşle_yin."
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "Metin tabanlı arabirim artık kullanılmayacaktır\n"
+
+#~ msgid "OK"
+#~ msgstr "Tamam"
+
+#~ msgid "Cancel"
+#~ msgstr "İptal"
+
+#, fuzzy
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Sistem için bir zaman dilimi seçin."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "Sistem saati UTC kullanıyor"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Zaman Dilimi Seçimi"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "Timeconfig'i çalıştırmak için root olmanız gerekiyor."
+
+#, fuzzy
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "Saat dilimi izinleri değiştiriliyor: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "/var/spool/postfix/etc silinirken hata"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "Gelişmiş ayarları gizle"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "Gelişmiş ayarları göster"
+
+#~ msgid "_Date"
+#~ msgstr "Tarih"
+
+#~ msgid "Current Time : "
+#~ msgstr "Geçerli Zaman : "
+
+#~ msgid "Time"
+#~ msgstr "Zaman"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP Sunucuları"
+
+#~ msgid "Date & _Time"
+#~ msgstr "_Tarih ve Saat"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "Makinanız Network Time Protocol kullanarak uzaktaki bir zaman "
+#~ "sunucusundan saatini ayarlayabilir."
+
+#, fuzzy
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "Ağ Zaman Protokolünü _etkinleştir"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "A_ğ Zaman Protokolü"
+
+#~ msgid "Help is not available."
+#~ msgstr "Bu konuda yardım bulunmuyor."
+
+#, fuzzy
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "Zaman dilimi (%s den) kopyalanırken hata: %s"
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Zaman diliminize en yakın şehri seçiniz:"
+
+#~ msgid "Please click into the map to choose a region:"
+#~ msgstr "Böyle seçmek için haritaya tıklayınız:"

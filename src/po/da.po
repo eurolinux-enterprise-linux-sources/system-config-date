@@ -1,0 +1,406 @@
+# Danish translation of system-config-date
+# Copyright (C) 2001 Free Software Foundation.
+# Keld Simonsen <keld@dkuug.dk>, 2001-2002, 2003, 2004, 2005.
+# Kjartan Maraas <kmaraas@gnu.org>, 2001.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004.
+# Keld Simonsen <keld@rap.dk>, 2005, 2006, 2007.
+# Kris Thomsen <lakristho@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2009-11-06 13:06+0100\n"
+"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Server"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP-initskriptet (%s) ser ikke ud til at virke ordentligt. Prøv at køre 'rpm "
+"-V ntp', for at se om initskriptet er blevet ændret. system-config-date vil "
+"afslutte nu."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Fejl"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Tjekker om NTP-server \"%s\" kan nås..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Du annullerede tjek af om NTP-server \"%s\" kan nås. Ønsker du stadig at "
+"dine ændringer skal træde i kraft?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Vært \"%s\" kan ikke nås eller virker ikke som en NTP-server. Ønsker du "
+"stadig at dine ændringer skal træde i kraft?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Ny NTP-server"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Dato og tid"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Skift systemets dato og tid"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Kunne ikke forbinde til en af disse tidsservere:\n"
+"\n"
+"%s\n"
+"\n"
+"Enten er ingen af dem til stede, eller også blokerer "
+"brandmursindstillingerne på din computer for NTP-forbindelser. \n"
+"Ønsker du at ændre din konfiguration nu for at omgå dette problem?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "Kunne ikke sætte tid og dato."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"Kunne ikke synkronisere hardwareuret. Dette kan skyldes at der ikke er noget "
+"hardwareur tilgængeligt, for eksempel hvis du kører i et virtualiseret miljø."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Angiv en NTP-server der skal bruges, eller aktiver NTP-rundkastning."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"Hjælpeviseren kunne ikke findes. For at kunne se hjælp skal du installere "
+"\"yelp\"-pakken."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Brug: system-config-date [tilvalg]\n"
+"Tilvalg for slutbruger:\n"
+"-h|--help        Vís denne hjælpebesked\n"
+"Reserverede tilvalg:\n"
+"--page <page>    Vís side <page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "tilvalg \"%s\" findes ikke\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Ikke-geografiske tidszoner"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Valgt by: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "Valgt by: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Vælg venligst den nærmeste by i din tidszone:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"Brug knap 2 eller 3 for at panorere og scrollhjulet til at zoome ind eller "
+"ud."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Egenskaber for dato/tid"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Aktuel dato og tid:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Benyt dette tilvalg, hvis du vil holde uret i din computer synkroniseret med "
+"en NTP-tidsserver."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "S_ynkronisér dato og tid over netværket"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Sæt dato og tid manuelt på dit system:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Dato</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_Time : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Minut : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Sekund : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Tid</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"Synkronisér dato og tid på din computer med en fjerntidsserver ved at bruge "
+"Network Time Protocol (NTP):"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP-servere</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Benyt dette tilvalg hvis du f.eks har en radio-kontrolleret ur-enhed der "
+"synkroniserer uret i din computer med en autoriseret tidskilde."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Brug _lokal tidskilde"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Benyt dette tilvalg hvis din computer skal rundsende for en NTP-server på "
+"det lokale netværk."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "Aktivér NTP _rundkastning"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "A_vancerede indstillinger"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "Dato og _tid"
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Brug dette hvis du ønsker automatisk at skifte mellem normaltid og "
+"sommertid. Brug ikke dette hvis du har andre styresystemer på denne maskine "
+"som ændrer maskinuret for at opnå dette, fx Microsoft Windows (tm)."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "_Systemur bruger UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "Tids_zone"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Dato og Tid"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Kontakter NTP-server. Vent venligst..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Brug dette tilvalg hvis systemuret skal  synkroniseres med din tidsserver "
+#~ "før start af tjenesten. Brug ikke denne valgmulighed, hvis din tidsserver "
+#~ "regelmæssigt ikke kan nås, f.eks på en bærbar, idet synkronisering kan "
+#~ "blokere indtil et tidsudløb er sket."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "S_ynkronisér systemuret før start af tjeneste"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "Grænseflade til teksttilstand er forældet\n"
+
+#~ msgid "OK"
+#~ msgstr "O.k."
+
+#~ msgid "Cancel"
+#~ msgstr "Annullér"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Vælg tidszonen for systemet."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "Systemur bruger UTC"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Valg af tidszone"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "Du skal være administrator (root) for at køre timeconfig."
+
+#~ msgid "Synchronize date and time over the network"
+#~ msgstr "Synkronisér dato og tid over netværket"
+
+#~ msgid "_Advanced Options"
+#~ msgstr "_Avancerede indstillinger"
+
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr "Fejl ved kopiering af tidszone (fra %(fromFile)s): %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "Ændrer rettighed på tidszone: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "Fejl ved fjernelse af /var/spool/postfix/etc/localtime"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "_Skjul avancerede indstillinger"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "_Vís avancerede indstillinger"
+
+#~ msgid "_Date"
+#~ msgstr "_Dato"
+
+#~ msgid "Current Time : "
+#~ msgstr "Aktuelle tid : "
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol."
+#~ msgstr ""
+#~ "Din computer kan synkronisere dens ur med en fjerntidsserver ved at bruge "
+#~ "Network Time Protocol (NTP)."
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP-servere"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Dato og _tid"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "Din computer kan synkronisere klokken mod en tidsserver ved hjælp af "
+#~ "Network Time Protocol"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "Aktivér _Network Time Protocol"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "Net_work Time Protocol"
+
+#~ msgid "Help is not available."
+#~ msgstr "Hjælp er ikke tilgængelig."
+
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "Fejl ved kopiering af tidszone (fra %s): %s"
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Vælg venligst den nærmeste by i din tidszone:"
+
+#~ msgid "Magnification: small"
+#~ msgstr "Forstørrelse: lille"
+
+#~ msgid "large"
+#~ msgstr "stor"

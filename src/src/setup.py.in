@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+from distutils.core import setup
+
+setup (
+        name = "scdate",
+        version = "@VERSION@",
+        packages = ["scdate", "scdate.core"]
+        )
+
+#setup (
+#        name = "scdate.dbus",
+#        version = "@VERSION@",
+#        packages = ["scdate.dbus", "scdate.dbus.service", "scdate.dbus.proxy"]
+#        )

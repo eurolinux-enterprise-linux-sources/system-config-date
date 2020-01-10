@@ -1,0 +1,290 @@
+# translation of system-config-date.master.po to Traditional Chinese
+# Translation of system-config-date to Traditional Chinese
+# Copyright (C) 2002 Red Hat Inc.
+#
+# Ben Wu <hpwu@redhat.com>, 2002,2003.
+# Chester Cheng <ccheng@redhat.com>, 2004, 2005, 2006, 2007.
+# Waika Liu <wliu@redhat.com>, 2005.
+# Leah Liu <weliu@redhat.com>, 2005.
+# Walter Cheuk <wwycheuk@netvigator.com>, 2005.
+# Terry Chuang <tchuang@redhat.com>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 15:49+0200\n"
+"PO-Revision-Date: 2010-08-02 11:58+1000\n"
+"Last-Translator: Terry Chuang <tchuang@redhat.com>\n"
+"Language-Team: Traditional Chinese <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Generated-By: pygettext.py 1.1\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "伺服器"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP 的 initscript (%s) 似乎沒有正常運作，請試著執行 'rpm -V ntp' 以查看 "
+"initscript 是否已經被修改過。 system-config-date 現在將會關閉。"
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "正在檢查 NTP 伺服器 '%s' 是否可以連接..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"您取消了檢查 NTP 伺服器 '%s' 是否可以連接。您是否依然希望您所作的修改能夠生"
+"效？"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr "主機 '%s' 未能連接，或者不是 NTP 伺服器。您是否依然希望您所作的修改能夠生效？"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "新的 NTP 伺服器"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "日期與時間"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "更改系統的日期與時間"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"無法與以下之一的時間伺服器連線：\n"
+"\n"
+"%s\n"
+"\n"
+"伺服器無法提供服務，或是您電腦的防火牆設定拒絕 NTP 連線。\n"
+"\n"
+"您現在是否要改變設定，以解決這個問題？"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "無法設定時間與日期。"
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"無法同步硬體時鐘。這可能是因為沒有可存取的硬體時鐘（例如執行於一個虛擬化環境"
+"中的時候）。"
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "請指定要使用的 NTP 伺服器，或啟用 NTP 廣播。"
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"無法寫入 /etc/ntp.conf 或 /etc/sysconfig/network。\n"
+"配置未受到變更。"
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "正在啟用 NTP 服務。請稍等。"
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr "無法找到協助的檢視器。若要檢視協助，您必須安裝「yelp」套件。"
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"使用方法：system-config-date [選項]\n"
+"使用者選項:\n"
+"-h|--help        顯示這項輔助說明訊息\n"
+"保留選項:\n"
+"--page <page>     顯示頁碼<page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "選項 '%s' 不能被識別\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "非地理時區"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "選擇的城市：%(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "選擇的城市：%s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "請選擇您的時區中最接近的城市："
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "請使用按鈕 2 或 3 來進行移動以及滑鼠滾輪來放大或縮小。"
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "日期/時間 內容"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "目前的日期與時間："
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr "如果您想讓電腦上的時鐘與 NTP 時間伺服器保持同步，請使用這個選項。"
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "透過網路同步日期與時間(_y)"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "手動式地設定您系統的日期與時間："
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>日期(_D)</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "時(_H)："
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "分(_M)："
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "秒(_S)："
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>時間</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr "透過使用了網路時間協定的遠端時間伺服器來同步您電腦上的日期與時間："
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP 伺服器</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr "使用 iburst 模式的話，初始同步化會花上較少的時間，不過卻會在伺服器上產生更多的負載。"
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "加快初始同步化的速度"
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"如果您有例如無線電控制的時鐘裝置，能讓您電腦裡的時鐘與其他時間來源同步，請使"
+"用這個選項。"
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "使用本地時間來源(_L)"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr "如果您想在區域網路上廣播，以找尋 NTP 伺服器，請使用這個選項。"
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "啟用 NTP 廣播(_B)"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "進階選項(_v)"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "日期與時間(_T)"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"如果您要在正常時間與日光節約時間之間自動切換，請使用這選項。如果您的電腦上有"
+"其他會改變硬體時間的作業系統，例如微軟的 Windows(tm)，請勿使用本選項。"
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "系統時鐘使用 UTC(_S)"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "時區(_T)"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "日期和時間"
+

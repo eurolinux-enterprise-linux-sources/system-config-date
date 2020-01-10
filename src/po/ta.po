@@ -1,0 +1,383 @@
+# translation of system-config-date.tip.ta.po to Tamil
+# translation of system-config-date.tip.ta.po to
+# translation of ta.po to
+# translation of ta.po to
+# This file is distributed under the same license as the system-config-date package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Jayaradha N <njaya@redhat.com>, 2004, 2005, 2006.
+# Felix <ifelix@redhat.com>, 2006, 2007.
+# I felix <ifelix@redhat.com>, 2007.
+# I. Felix <ifelix@redhat.com>, 2008.
+# I Felix <ifelix@redhat.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date.tip.ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 15:49+0200\n"
+"PO-Revision-Date: 2010-08-02 14:49+0530\n"
+"Last-Translator: I Felix <ifelix@redhat.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "சேவையகம்"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP initscript (%s) சரியாக வேலை செய்யவில்லை. 'rpm -V ntp' ஐ இயக்கி .initscript "
+"மாற்றப்பட்டதா என்பதைப் பார்க்கவும்  system-config-date இப்போது வெளியேறுகிறது."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "பிழை"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "NTP சேவையகத்தை'%s' அடைய முடிகிறதா என சோதிக்கிறது..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"நீங்கள் NTP சேவையகத்தினை '%s' அடையும் நிலையை ரத்து செய்துவிட்டீர்கள். மாற்றத்தை சேமிக்க "
+"வேண்டுமா?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"புரவலன் '%s'ஐ அடைய முடியவில்லை அல்லது NTP சேவையகத்தை போல் இல்லை இந்த மாற்றத்தை சேமிக்க "
+"வேண்டுமா?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "புதிய NTP சேவையகம்"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "தேதி மற்றும் நேரம்"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "கணினி தேதி மற்றும் நேரத்தை மாற்றவும்"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"நேர சேவையகத்துடன் இணைக்க முடியவில்லை:\n"
+"\n"
+"%s\n"
+"\n"
+"இணைப்பு எதுவும் இல்லை அல்லது firewall அமைவு உங்கள் கணினியில் NTP இணைப்பைத் "
+"தடுக்கிறது.\n"
+"\n"
+"இப்போது இந்த சிக்கலில் பணிபுரிய உங்கள் கட்டமைப்பை மாற்ற வேண்டுமா?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "நேரம் மற்றும் தேதியை அமைக்க முடியவில்லை."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"வன்பொருள் கடிகாரத்துடன் ஒருங்கிணைக்க முடியவில்லை. வன்பொருள் கடிகார அணுகல் இல்லாததே "
+"இதற்கு காரணம், எ.கா ஒரு மெய்நிகராக்கப்பட்ட சூழலில் இயங்கும் போது."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr ""
+"ஒரு NTP சேவையகத்தைக் குறிப்பிட்டு பயன்படுத்தவும் அல்லது NTP ஒலிபரப்பை செயல்படுத்தவும்."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"/etc/ntp.conf அல்லது /etc/sysconfig/networkஐ எழுத முடியவில்லை.\n"
+"கட்டமைப்பு மாற்றமடையவில்லை."
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "NTP சேவையை துவக்குகிறது. காத்திருக்கவும்."
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr "உதவி காட்டி இல்லை. இதனை காண நீங்கள் 'yelp' தொகுப்பை நிறுவ வேண்டும்."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"பயன்பாடு: system-config-date [options]\n"
+"பயனர் விருப்பங்கள்:\n"
+"-h|--help        இந்த உதவி செய்தியை காட்டவும்\n"
+"Reserved options:\n"
+"--page <page>    பக்கத்தை காட்டவும் <page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "விருப்பங்கள் '%s' அங்கீகரிக்கப்படவில்லை\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "பூகோளமில்லாத நேர மண்டலங்கள்"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "தேர்ந்தெடுக்கப்பட்ட நகரம்: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "தேர்ந்தெடுக்கப்பட்ட நகரம்: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "உங்கள் நேர மண்டலத்தில் அருகிலுள்ள நகரத்தை தேர்வு செய்யவும்:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "பொத்தான் 2 அல்லது 3 சுருள் வட்டில் பெரிதாக்கவும் சிறிதாக்கவும் பயன்படுத்தவும்."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "தேதி/நேரம் பண்புகள்"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "தற்போதைய தேதி மற்றும் நேரம்:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"NTP நேர சேவையகத்துடன் உங்கள் கணினி கடிகாரத்தை ஒருங்கிணைக்க இந்த விருப்பத்தைப் "
+"பயன்படுத்தவும்."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "ஒத்திசைக்கப்பட்ட தேதி மற்றும் நேரம் நெட்வொர்க்கின் மேல் (_y)"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "உங்கள் கணினியில் கைமுறையாக தேதி மற்றும் நேரத்தை அமைக்கவும்:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>தேதி</b> (_D)"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "மணி (_H) :"
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "நிமிடம் (_M) :"
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "விநாடி (_S) :"
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>நேரம்</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"ஒரு தொலை நேர சேவையகத்தை பயன்படுத்தும் பிணைய நேர நெறிமுறையில் உங்கள் கணினியில் "
+"ஒத்திசைக்கப்பட்ட தேதி மற்றும் நேரம்:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP சேவையகங்கள்</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+"iburst முறைமை ஆரம்ப ஒத்திசைத்தலுக்கு குறைந்த நேரமே எடுக்கும் ஆனால் சேவையகங்களுக்கு "
+"அதிக பளுவை கொடுக்கிறது."
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "ஆரம்ப ஒத்திசைத்தலை வேகப்படுத்து (_S)"
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"ரேடியோ கட்டுப்படுத்தப்பட்ட நேர சாதனத்துடன் உங்கள் கணினி கடிகாரத்தை அங்கீகரிக்கப்பட்ட நேர "
+"மூலத்துடன் ஒருங்கிணைக்க இந்த விருப்பத்தைப் பயன்படுத்தவும்."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "உள்ளமை நேர மூலத்தைப் பயன்படுத்தவும் (_L)"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"உள்ளமை துணை பிணையத்தில் உங்கள் கணினி NTP சேவையகத்திற்கு ஒலிபரப்ப இந்த விருப்பத்தைப் "
+"பயன்படுத்தவும்."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP ஒலிபரப்பை செயல்படுத்தவும் (_B)"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "கூடுதல் விருப்பங்கள் (_A)"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "தேதி மற்றும் நேரம் (_T)"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"நீங்கள் சாதாரண மற்றும் பகல் நேர சேமிப்பு நேரத்திற்கு தானாக மாற்ற வேண்டுமென்றால் இதனை "
+"பயன்படுத்தவும். நீங்கள் வேறு இயக்கத்தளத்தை கொண்டால் எ.கா Microsoft Windows(tm) அதிலுள்ள "
+"வன்பொருளால் நேரத்தை மாற்ற நினைத்தால் இதனை பயன்படுத்த வேண்டாம்."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "கணினி கடிகாரம் UTC ஐ பயன்படுத்துகிறது (_S)"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "நேர மண்டலம் (_Z)"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "தேதி மற்றும் நேரம்"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "உரை முறை இடைமுகம் எதிராக உள்ளது\n"
+
+#~ msgid "OK"
+#~ msgstr "சரி"
+
+#~ msgid "Cancel"
+#~ msgstr "ரத்து"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "கணினிக்கான நேர மண்டலத்தை தேர்வு செய்யவும்."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "கணினி கடிகாரம் UTC ஐ பயன்படுத்துகிறது"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "நேரமண்டல தேர்ந்தெடுத்தல்"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "timeconfig ஐ இயக்க நீங்கள் root பயனராக இருக்க வேண்டும்."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "சேவையை துவக்கும் முன் கணினி கடிகாரம் உங்கள் நேர சேவையகத்துடன் ஒருங்கிணைந்திருந்தால் "
+#~ "இந்த வாய்ப்பினை பயன்படுத்தவும். உங்கள் நேர சேவையகம் ஒழுங்காக இல்லாவிட்டால் இந்த "
+#~ "வாய்ப்பினை பயன்படுத்த வேண்டாம், எடுத்துக்காட்டு, மடிக்கணினியில் நேர இடைவேளை வரும் வரை "
+#~ "ஒருங்கிணைப்பு தடைப்பட்டிருக்கும்."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "சேவையை துவக்கும் முன் கணினி கடிகாரத்தினை ஒருங்கிணைக்கவும் (_y)"
+
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr "(%(fromFile)sஇலிருந்து) நேர மண்டலத்தை நகலெடுக்கும் போது பிழை: %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "நேர மண்டல அனுமதியை மாற்றுகிறது: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "/var/spool/postfix/etc/localtime நீக்கும் போது பிழை"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "கூடுதல் விருப்பங்களை மறைக்கவும் (_H)"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "கூடுதல் விருப்பங்களை காட்டவும் (_S)"
+
+#~ msgid "_Date"
+#~ msgstr "தேதி (_D)"
+
+#~ msgid "Current Time : "
+#~ msgstr "தற்போதைய நேரம் :"
+
+#~ msgid "Time"
+#~ msgstr "நேரம்"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP சேவையகங்கள்"
+
+#~ msgid "Date & _Time"
+#~ msgstr "தேதி & நேரம் (_T)"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "பிணைய நேர நெறிமுறையை பயன்படுத்தி உங்கள் கணினி தொலை நேர சேவையகத்துடன் "
+#~ "ஒருங்கிணைக்கலாம்"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "பிணைய நேர நெறிமுறையை செயல்படுத்தவும் (_E)"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "பிணைய நேர நெறிமுறை (_w)"

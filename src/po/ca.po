@@ -1,0 +1,429 @@
+# Catalan translations for system-config-date package.
+# Copyright © 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the
+#   system-config-date package.
+# Xavier A. Conde Rueda, 2003, 2004, 2005, 2006, 2007.
+#
+# This file is translated according to the glossary and style guide of
+#   Softcatalà. If you plan to modify this file, please read first the page
+#   of the Catalan translation team for the Fedora project at:
+#   http://www.softcatala.org/projectes/fedora/
+#   and contact the previous translator
+#
+# Aquest fitxer s'ha de traduir d'acord amb el recull de termes i la guia
+#   d'estil de Softcatalà. Si voleu modificar aquest fitxer, llegiu si
+#   us plau la pàgina de catalanització del projecte Fedora a:
+#   http://www.softcatala.org/projectes/fedora/
+#   i contacteu l'anterior traductor/a.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2009-08-09 00:12+0100\n"
+"Last-Translator: Xavier Conde Rueda <xavi.conde@gmail.com>\n"
+"Language-Team: Catalan <fedora@softcatala.net>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Servidor"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"És possible que el fitxer de seqüència d'inici del protocol de temps de "
+"xarxa (%s) no funcioni correctament. Proveu d'executar 'rpm -V ntp' per "
+"saber si el fitxer ha estat modificat. Aquest programa finalitzarà."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Error"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "S'està comprovant si es pot accedir al servidor NTP '%s'..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Heu cancel·lat la comprovació per si es pot accedir al servidor NTP '%s'. "
+"Voleu que els canvis tinguin efecte igualment?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"No es pot accedir a l'ordinador '%s', o no és un servidor NTP. Voleu que els "
+"canvis tinguin efecte igualment?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Nou servidor NTP"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Data i hora"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Canvieu l'hora i la data del sistema"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"No s'ha pogut connectar amb algun d'aquests servidors:\n"
+"\n"
+"%s\n"
+"\n"
+"Potser no estan disponibles, o bé la configuració del tallafoc d'aquest "
+"sistema bloca les connexions de protocol de temps de xarxa.\n"
+"\n"
+"Voleu canviar la configuració per tal de poder resoldre aquest problema?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "No s'ha pogut establir la data i l'hora"
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"No s'ha pogut sincronitzar el rellotge del maquinari. És possible que no "
+"disposeu de cap rellotge, p.e. si esteu fent servir un entorn virtualitzat."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr ""
+"Especifiqueu el servidor de temps de xarxa que fareu servir o habiliteu la "
+"difusió NTP."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"No s'ha trobat el visualitzador d'ajuda. Us cal el paquet yelp per veure "
+"l'ajuda."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Forma d'ús: system-config-date [opcions]\n"
+"Opcions d'usuari:\n"
+"-h|--help        Mostra aquesta ajuda\n"
+"Opcions reservades:\n"
+"--page <pàgina>  Mostra la pàgina <pàgina>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "no es reconeix l'opció '%s'\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Fusos horaris no geogràfics"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Seleccioneu la ciutat: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "Ciutat seleccionada: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Seleccioneu la ciutat més propera al vostre fus horari:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"Useu el botó 2 o 3 per desplaçar-vos i la roda del ratolí per apropar i "
+"allunyar"
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Propietats de data i hora"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Data actual i hora:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Utilitzeu aquesta opció si voleu mantenir el rellotge d'aquest ordinador "
+"sincronitzat amb un servidor de temps NTP."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr ""
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Establiu manualment la data i l'hora del sistema:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Data</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_Hora: "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Minuts: "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Segons: "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Hora</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"Sincronitzeu la data i l'hora en el vostre ordinador amb un servidor de "
+"temps remot que empri el protocol de temps de xarxa:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>Servidors d'NTP</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Utilitzeu aquesta opció si teniu, per exemple, un rellotge controlat per "
+"ràdio que sincronitza el rellotge d'aquest ordinador amb un rellotge precís."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Empra la font de temps _local"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Utilitzeu aquesta opció si el aquest ordinador ha de transmetre un missatge "
+"de difusió a la xarxa local, per a cercar-hi un servidor de temps NTP."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "Ha_bilita la difusió NTP"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr ""
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "Da_ta i hora"
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Empreu això si voleu que es faci el canvi d'hora automàticament. No ho feu "
+"servir si al mateix temps empreu sistemes operatius, com ara el Microsoft "
+"Windows(tm), que per aconseguir això canvien l'hora interna del rellotge."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "El rellotge del sistema fa servir _UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "_Fus horari"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Data i hora"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "S'està contactant amb el servidor de temps de xarxa. Espereu..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Utilitzeu aquesta opció si el rellotge s'ha de sincronitzar amb el vostre "
+#~ "servidor de temps abans d'iniciar el servei. No utilitzeu aquesta opció "
+#~ "si sovint no es pot accedir al vostre servidor de temps, per exemple en "
+#~ "un portàtil, ja que la sincronització es blocarà fins que s'esgoti el "
+#~ "temps d'espera."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "Sincronitza el _rellotge del sistema abans d'iniciar el servei"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "La interfície de text ja no es fa servir\n"
+
+#~ msgid "OK"
+#~ msgstr "D'acord"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel·la"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Seleccioneu el fus horari del sistema."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "El rellotge del sistema fa servir UTC"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Selecció del fus horari"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "Heu de ser el superusuari per poder executar aquest programa."
+
+#~ msgid "Synchronize date and time over the network"
+#~ msgstr "Sincronitza la data i l'hora mitjançant la xarxa"
+
+#~ msgid "_Advanced Options"
+#~ msgstr "Opcions _avançades"
+
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr ""
+#~ "S'ha produït un error en copiar la zona horària (de %(fromFile)s): %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "S'està canviant els permisos del fus horari: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "S'ha produït un error en suprimir /var/spool/postfix/etc/localtime"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "_Amaga les opcions avançades"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "_Mostra opcions avançades"
+
+#~ msgid "_Date"
+#~ msgstr "_Data"
+
+#~ msgid "Current Time : "
+#~ msgstr "Hora actual: "
+
+#~ msgid "Time"
+#~ msgstr "Hora"
+
+#~ msgid "NTP Servers"
+#~ msgstr "Servidors NTP"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Data i _hora"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "Aquest ordinador pot sincronitzar el seu rellotge emprant el protocol de "
+#~ "temps de xarxa."
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "Habilita el protocol de temps de _xarxa"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "_Protocol de temps de xarxa"
+
+#~ msgid "Help is not available."
+#~ msgstr "No es disposa d'ajuda."
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Seleccioneu la ciutat més propera al vostre fus horari:"
+
+#~ msgid "Magnification: small"
+#~ msgstr "Ampliació: petita"
+
+#~ msgid "large"
+#~ msgstr "gran"
+
+#~ msgid "Use button 2 or 3 for panning"
+#~ msgstr "Feu servir el segon o tercer botó per a desplaçar"
+
+#~ msgid "Please click into the map to choose a region:"
+#~ msgstr "Feu clic al mapa per escollir una regió:"
+
+#~ msgid "%s\n"
+#~ msgstr "%s\n"
+
+#~ msgid "_Server:"
+#~ msgstr "_Servidor:"
+
+# això ho posen per emplenar, no vol dir res
+#~ msgid "dummy"
+#~ msgstr "dummy"
+
+#~ msgid "*"
+#~ msgstr "*"

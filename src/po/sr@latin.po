@@ -1,0 +1,316 @@
+# Serbian(Latin) translations for system-config-date
+# Copyright (C) 2005 Red Hat, Inc.
+# This file is distributed under the same license as the system-config-date package.
+# Miloš Komarčević <kmilos@gmail.com>, 2005.
+# Nikola Pajtic <salgeras@gmail.com>, 2008.
+# Igor Miletic <grejigl-gnomeprevod@yahoo.ca>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2009-11-05 22:50+0000\n"
+"Last-Translator: Miloš Komarčević <kmilos@gmail.com>\n"
+"Language-Team: Serbian (sr) <fedora-trans-sr@redhat.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Server"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"Izgleda da NTP initskripta (%s) ne radi ispravno.  Pokušajte da izvršavanjem "
+"komande „rpm -V ntp“ vidite da li je initskripta bila izmenjena.  system-"
+"config-date će sada izaći."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Greška"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Proveravam da li je NTP server „%s“ dostupan..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Otkazali ste proveru dostupnosti NTP servera „%s“. Još uvek želite da "
+"promene stupe u dejstvo?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Domaćin „%s“ nije dostupan ili ne vrši ulogu NTP servera. Da li još uvek "
+"želite da promene stupe u dejstvo?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Novi NTP server"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Datum i vreme"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Menja sistemski datum i vreme"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Ne mogu da se povežem sa jednim od ovih servera vremena:\n"
+"\n"
+"%s\n"
+"\n"
+"Ili nijedan od njih nije dostupan ili postavka zaštitnog zida na računaru "
+"blokira NTP konekcije.\n"
+"\n"
+"Želite li da promenite podešavanja kako bi sada zaobišli ovu prepreku?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "Neuspešno postavljanje vremena i datuma."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"Neuspešno sinhronizovanje hardverskog časovnika. Razlog može biti zbog "
+"nepostojanja pristupačnog hardverskog časovnika, npr. ako je sistem pokrenut "
+"u virtuelnom okruženju."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Molim navedite NTP server za upotrebu ili omogućite NTP emitovanje."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"Pregledač datoteka pomoći nije pronađen. Da biste mogli da vidite pomoć "
+"potrebno je da instalirate paket 'yelp'."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Upotreba: system-config-date [opcije]\n"
+"Korisničke opcije:\n"
+"-h|--help        prikaži ovu pomoćnu poruku\n"
+"Rezervisane opcije:\n"
+"--page <strana>    prikaži stranu <strana>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "opcija „%s“ nije prepoznata\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Negeografske vremenske zone"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Izabran grad: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "Izabran grad: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Izaberite najbliži grad u vašoj vremenskoj zoni:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"Upotrebite dugme 2 ili 3 za pomeranje i točkić za uvećavanje ili umanjivanje."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Osobine za datum/vreme"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Trenutan datum i vreme:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Koristite ovu opciju ako želite da održavate časovnik računara "
+"sinhronizovanim sa NTP serverom vremena."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "S_inhronizacija datuma i vremena preko mreže"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Ručno postavite datum i vreme sistema:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Datum</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_Čas : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Minut : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Sekunda : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Vreme</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"Sinhronizujte datum i vreme na računaru sa udaljenim serverom vremena "
+"koristeći protokol mrežnog vremena (Network Time Protocol):"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP serveri</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Koristite ovu opciju ako imate npr. časovnički uređaj kontrolisan radiom "
+"koji sinhronizuje časovnik računara sa nadležnim izvorom vremena."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Koristi _lokalni izvor vremena"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Koristite ovu opciju ako računar treba da se najavljuje kao NTP server na "
+"lokalnoj podmreži."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "Uključi NTP _emitovanje"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "N_apredne opcije"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "Datum i _vreme"
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Koristite ovo ako želite samostalno prebacivanje između običnog i zimskog "
+"vremena. Nemojte koristiti ovo ako imate druge operativne sisteme na ovom "
+"računaru koji pomeraju hardverski časovnik kako bi to postigli, npr. "
+"Microsoft Windows(tm)."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "Sis_temski časovnik koristi UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "Vremenska _zona"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Datum i vreme"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Kontaktiram NTP server.  Molim pričekajte..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Upotrebite ovu opciju ako sistemski časovnik treba da bude sinhronizovan "
+#~ "sa serverom vremena pre pokretanja servisa. Nemojte koristiti ovu opciju "
+#~ "ako server vremena nije redovno dostupan, kao npr. na prenosivom "
+#~ "računaru, jer sinhronizacija može da zablokira dok ne prođe vreme čekanja."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "S_inhronizuj sistemski časovnik pre pokretanja servisa"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Date & Time
+_Comment=Change system date and time
+Categories=System;Settings;
+Icon=system-config-date
+Exec=/usr/bin/system-config-date
+Type=Application
+Terminal=false

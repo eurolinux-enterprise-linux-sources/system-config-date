@@ -1,0 +1,377 @@
+# translation of lv.po to latvian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the system-config-date package.
+#
+# Gatis Kalnins <gatis.kalnins@metatrons.lv>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2006-07-10 11:10+0300\n"
+"Last-Translator: Gatis Kalnins <gatis.kalnins@metatrons.lv>\n"
+"Language-Team: latvian <locale@laka.lv>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Serveris"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"NTP starta scenārijs (%s) darbojas nekorekti. Mēģiniet izpildīt konsoles "
+"komandu 'rpm -V ntp', lai pārbaudītu, vai šī datne ir izmainīta. System-"
+"config-date darbība tiek apturēta."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Kļūda"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Notiek piekļuves pārbaude NTP serverim '%s'..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Jūs atcēlāt piekļuves pārbaudi NTP serverim '%s'. Vai vēlaties saglabāt "
+"izmaiņas?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Nav piekļuves resursam '%s' vai arī tas nepilda NTP servera funkcijas. Vai "
+"vēlaties saglabāt izmaiņas?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Jauns NTP serveris"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr ""
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Sistēmas datuma un laika maiņa"
+
+#: ../src/scdMainWindow.py:63
+#, fuzzy, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Nav iespējams pieslēgties šiem laika serveriem:\n"
+"\n"
+"%s\n"
+"\n"
+"Vai nu neviens no tiem nav pieejams, vai arī Jūsu datorsistēmas ugunssiena "
+"bloķē NTP savienojumus."
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr ""
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Norādiet NTP serveri vai arī ieslēdziet NTP apraidi."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Pielietojums: system-config-date [opcijas]\n"
+"Lietotāja opcijas:\n"
+"-h|--help        Attēlo šo paziņojumu\n"
+"Papildus opcijas:\n"
+"--page <page>    Attēlo lapu <page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "opcija(s) '%s' nav atpazīta\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Nav ģeogrāfisku zonu"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ""
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr ""
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr ""
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+#, fuzzy
+msgid "Please select the nearest city in your time zone:"
+msgstr "Lūdzu izvēlieties Jūsu laika zonas tuvāko pilsētu:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Datuma/laika iestatījumi"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr ""
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Izmantojiet šo opciju, ja vēlaties, lai Jūsu datorsistēmas pulkstenis "
+"sinhronizētos ar laika serveri."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr ""
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr ""
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "Stunda:"
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "Minūte:"
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "Sekunde:"
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Izmantojiet šo parametru, ja Jums ir radio ierīce, ar kuras palīdzību notiek "
+"sistēmas pulksteņa sinhronizēšana ar laika serveri."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "Izmantot vietējo laiku"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Izmantojiet šo opciju, ja Jūsu datoram ir jāsaņem paziņojumi no laika "
+"servera, kas darbojas Jūsu lokālajā datortīklā."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "Ieslēgt NTP apraidi"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr ""
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr ""
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "Sistēmas pulkstenis izmanto UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "Laika josla"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Datums & Laiks"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Sistēma pieslēdzas NTP serverim. Lūdzu gaidiet..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Izmantojiet šo opciju, ja vēlaties sistēmas pulksteni sinhronizēt pirms "
+#~ "servisa startēšanas. Nevajadzētu šo parametru ieslēgt, ja Jūsu serveris "
+#~ "periodiski nav pieejams, jo neveiksmīga sinhronizēšanas procedūra var "
+#~ "nobloķēt sistēmu."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "Sinhronizēt sistēmas pulksteni pirms servisa startēšanas"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "Teksta režīms nav atļauts\n"
+
+#~ msgid "OK"
+#~ msgstr "Apstiprināt"
+
+#~ msgid "Cancel"
+#~ msgstr "Atcelt"
+
+#, fuzzy
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Izvēlēties Jūsu datorsistēmas laika zonu."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "Sistēmas pulkstenis izmantos UTC"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Laika zonas izvēle"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "Timeconfig startējams tikai root režīmā."
+
+#, fuzzy
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "Piekļuves tiesību maiņa laika zonas datnei: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "Kļūda dzēšot /var/spool/postfix/etc/localtime"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "Slēpt papildiestatījumus"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "Rādīt papildiestatījumus"
+
+#~ msgid "_Date"
+#~ msgstr "Datums"
+
+#~ msgid "Current Time : "
+#~ msgstr "Patreizējais laiks:"
+
+#~ msgid "Time"
+#~ msgstr "Laiks"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP serveri"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Datums & laiks"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "Jūsu datorsistēma var sinhronizēt tās pulksteni ar attālinātu laika "
+#~ "serveri, izmantojot Tīkla Laika protokolu (NTP)"
+
+#, fuzzy
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "Ieslēgt Tīkla laika protokolu"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "Tīkla Laika protokols"
+
+#~ msgid "Help is not available."
+#~ msgstr "Palīgs nav pieejams."
+
+#, fuzzy
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "Kļūda kopējo laika zonu (no %s): %s"
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Lūdzu izvēlieties Jūsu laika zonas tuvāko pilsētu:"
+
+#~ msgid "Please click into the map to choose a region:"
+#~ msgstr "Lūdzu noklikšķiniet uz kartes, lai izvēlētos reģionu:"

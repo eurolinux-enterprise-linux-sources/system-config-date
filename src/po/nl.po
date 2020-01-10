@@ -1,0 +1,416 @@
+# Translation of system-config-date to Dutch.
+# Copyright (C) 2002-2009 Free Software Foundation, Inc.
+# Taco Witte <T.C.Witte@phys.uu.nl>, 2002.
+# Tino Meinen <a.t.meinen@chello.nl>, 2003.
+# Peter van Egdom <p.van.egdom@gmail.com>, 2003-2009.
+# Bart Couvreur <couf@fedoraproject.org>, 2007.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2010-07-03 13:13+0200\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Language-Team: Fedora\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Server"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"Het NTP initscript (%s) werkt schijnbaar niet zoals het hoort.  Probeer eens "
+"'rpm -V ntp' om te kijken of het initscript veranderd is.  system-config-"
+"date zal nu afgesloten worden."
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Fout"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Controleren of NTP server '%s' bereikbaar is..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Je hebt de controle op de bereikbaarheid van NTP server '%s' afgebroken. Wil "
+"je nog steeds jouw veranderingen toepassen?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"Host '%s' is niet bereikbaar of lijkt geen NTP server te zijn. Wil je nog "
+"steeds jouw veranderingen toepassen?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Nieuwe NTP server"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Datum en tijd"
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Systeem datum en tijd wijzigen"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Er kon geen verbinding worden gemaakt met een van deze tijd servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Of geen van deze tijd servers is beschikbaar of de firewall instellingen van "
+"jouw computer blokkeren NTP verbindingen.\n"
+"\n"
+"Wil je jouw instellingen veranderen om dit probleem nu op te lossen?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "Instellen van tijd en datum is mislukt."
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"Synchroniseren van de hardware klok is mislukt. Dit kan veroorzaakt zijn "
+"omdat er geen hardware klok bereikbaar is, bijvoorbeeld omdat het programma "
+"in een gevirtualiseerde omgeving wordt gedraaid."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Geef op welke NTP server je wilt gebruiken of zet NTP broadcast aan."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"Kon niet schrijven naar /etc/ntp.conf noch /etc/sysconfig/network.\n"
+"Configuratie ongewijzigd."
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "NTP service opstarten. Een ogenblik geduld."
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"De hulp viewer kon niet gevonden worden. Om de hulp te tonen moet je het "
+"'yelp' pakket installeren."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Gebruik: system-config-date [opties]\n"
+"Eindgebruiker opties:\n"
+"-h|--help          Laat deze hulp boodschap zien\n"
+"Gereserveerde opties:\n"
+"--page <pagina>    Laat pagina <pagina> zien\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "optie(s) '%s' onbekend\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Niet-geografische tijdzones"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Geselecteerde stad: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "Geselecteerde stad: %s"
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Selecteer de dichtstbijzijnde stad in jouw tijdzone:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"Gebruik knop 2 of 3 om te bewegen en de muis wiel om in of uit te zoomen."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Datum/tijd eigenschappen"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Huidige datum en tijd:"
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"Gebruik deze optie als je wilt dat de klok van jouw computer "
+"gesynchroniseerd blijft met een NTP tijd server."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "S_ynchroniseer datum en tijd via het netwerk"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Datum en tijd van jouw systeem handmatig instellen:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Datum</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_Uur : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Minuut : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Seconde : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Tijd</b>"
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+"Datum en tijd van jouw systeem synchroniseren met een externe tijd server "
+"door gebruik te maken van het Netwerk Tijd Protocol:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP servers</b>"
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+"Gebruik iburst mode die minder tijd nodig heeft voor initiële "
+"synchronisatie, maar meer belasting van servers genereert."
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "Ver_snel initiële synchronisatie"
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"Gebruik deze optie als je bijvoorbeeld een radio ontvanger gebruikt voor het "
+"synchroniseren van de klok van jouw computer met een externe tijd bron."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "_Lokale tijd bron gebruiken"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"Gebruik deze optie als je wilt dat jouw computer een broadcast doet voor een "
+"NTP server op het lokale subnet."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP _broadcast gebruiken"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "Ge_vorderde opties"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "Datum en _tijd"
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"Gebruik deze optie als je automatisch wilt wisselen tussen normale tijd en "
+"zomertijd. Gebruik deze optie niet als je andere besturingssystemen op deze "
+"computer hebt die de hardware klok aanpassen om dit te bereiken, zoals "
+"Microsoft Windows(tm)."
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "_Systeem klok gebruikt UTC"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "_Tijdzone"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Datum & tijd"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Verbinden met NTP-server.  Even geduld alstublieft..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Gebruik deze optie als de systeemklok gesynchroniseerd dient te worden "
+#~ "met uw tijdserver voordat de service wordt gestart. Gebruik deze optie "
+#~ "niet als uw tijdserver regelmatig onbereikbaar is, bijvoorbeeld wanneer "
+#~ "gebruik gemaakt wordt van een laptop, omdat dan de synchronisatie kan "
+#~ "blokkeren totdat een tijdslimiet verstreken is."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "Systeemklok s_ynchroniseren voordat de service wordt gestart"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "Tekstmode interface is verouderd\n"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Selecteer de tijdzone voor het systeem."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "Systeemklok gebruikt UTC"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Tijdzone selectie"
+
+# dit heet toch system-config-date ipv timeconfig?
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "U moet root zijn om dit programma te kunnen uitvoeren."
+
+#~ msgid "Synchronize date and time over the network"
+#~ msgstr "Datum en tijd over het netwerk synchroniseren"
+
+#~ msgid "_Advanced Options"
+#~ msgstr "Ge_avanceerde opties"
+
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr "Fout bij kopiëren tijdzone (van %(fromFile)s): %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "Wijzigen van toegangsrechten van tijdzone: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "Fout bij verwijderen /var/spool/postfix/etc/localtime"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "Geavanceerde opties _verbergen"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "Geavanceerde opties _tonen"
+
+#~ msgid "_Date"
+#~ msgstr "_Datum"
+
+#~ msgid "Current Time : "
+#~ msgstr "Huidige tijd : "
+
+#~ msgid "Time"
+#~ msgstr "Tijd"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP-servers"
+
+#~ msgid "Date & _Time"
+#~ msgstr "_Datum & tijd"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "Uw computer kan zijn klok synchroniseren met een externe tijdserver door "
+#~ "gebruik te maken van het Netwerk Tijd Protocol"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "_Netwerk Tijd Protocol gebruiken"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "_Netwerk Tijd Protocol"
+
+#~ msgid "Help is not available."
+#~ msgstr "Hulp is niet beschikbaar."
+
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "Fout bij kopiëren tijdzone (van %s): %s"
+
+#~ msgid "Failed to synchronize hardware clock."
+#~ msgstr "Synchroniseren van hardware-klok is mislukt."
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Selecteer de dichtstbijzijnde stad in uw tijdzone:"
+
+#~ msgid "Magnification: small"
+#~ msgstr "Vergroting: klein"
+
+#~ msgid "large"
+#~ msgstr "groot"
+
+#~ msgid "Use button 2 or 3 for panning"
+#~ msgstr "Gebruik knop 2 of 3 om te verschuiven"
+
+#~ msgid "Please click into the map to choose a region:"
+#~ msgstr "Klik op de kaart om een gebied te kiezen:"

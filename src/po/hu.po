@@ -1,0 +1,367 @@
+# Hungarian translation of system-config-date.
+# This file is distributed under the same license as the system-config-date package.
+# Copyright (C) 2003-2009 Fedora Project
+# Tamas Szanto <tszanto@mol.hu>, 2003.
+# Széll Tamás <tomi@digiflex.hu>, 2004.
+# Arpad Biro <biro_arpad@yahoo.com>, 2004, 2005, 2007.
+# Szentiványi Gábor <szentivanyi.gabor@ulx.hu>, 2006.
+# Sulyok Péter <peti@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 15:49+0200\n"
+"PO-Revision-Date: 2010-07-23 12:52+0100\n"
+"Last-Translator: Peter Bojtos <ptr@ulx.hu>\n"
+"Language-Team: Hungarian <fedora-trans-hu@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Generated-By: pygettext.py 1.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARU\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "Kiszolgáló"
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid "The NTP initscript (%s) does not seem to be functioning properly.  Try running 'rpm -V ntp' to see if the initscript has been modified.  system-config-date will exit now."
+msgstr "Az NTP inicializálási szkript (%s) nem megfelelően működik. Az 'rpm -V ntp' paranccsal kideríthető, hogy a szkriptet módosította-e valaki. A program futása most befejeződik."
+
+#: ../src/date_gui.py:156
+#: ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "Hiba"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "„%s” NTP kiszolgáló elérhetőségének ellenőrzése…"
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid "You cancelled checking whether NTP server '%s' is reachable. Do you still want your changes to take effect?"
+msgstr "Megszakította a(z) „%s” NTP kiszolgáló elérhetőségének az ellenőrzését. Mégis akarja, hogy a változtatások érvénybe lépjenek?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid "Host '%s' is not reachable or doesn't act as an NTP server. Do you still want your changes to take effect?"
+msgstr "„%s” kiszolgáló nem elérhető, vagy nem tűnik NTP kiszolgálónak. Mégis akarja, hogy a változtatások érvénybe lépjenek?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "Új NTP kiszolgáló"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Dátum és idő"
+
+#: ../src/scdMainWindow.py:47
+#: ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "Dátum és idő megváltoztatása"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"Nem sikerült csatlakozni ezen kiszolgálók egyikéhez sem:\n"
+"\n"
+"%s\n"
+"\n"
+"Vagy egyik sem érhető el, vagy az tűzfalbeállítások megakadályozzák az NTP kapcsolat létrehozását.\n"
+"\n"
+"Akarja módosítani a beállításokat, hogy megoldja a problémát?"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "A dátum és idő beállítása nem sikerült."
+
+#: ../src/scdMainWindow.py:90
+msgid "Failed to synchronize hardware clock. This may be because there is no hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr "Nem sikerült szinkronizálni a hardver órát. Ez azért lehet, mert nincsen elérhető hardver óra (pl. virtuális környezetben)."
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Adja meg a használni kívánt NTP-kiszolgáló nevét (legalább egyet), vagy engedélyezze az NTP szórást."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+"Sem a /etc/ntp.conf, sem a /etc/sysconfig/network nem írható.\n"
+"A beállítások változatlanok."
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr "NTP szolgáltatás indítása, kérem várjon…"
+
+#: ../src/scdMainWindow.py:287
+msgid "The help viewer could not be found. To be able to view help you need to install the 'yelp' package."
+msgstr "A súgónéző nem található. A súgó megtekintéséhez telepítenie kell a „yelp” csomagot."
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Használat: system-config-date [opciók]\n"
+"Végfelhasználói opciók:\n"
+"-h|--help        Ennek a segítség üzenetnek a megjelenítése\n"
+"Foglalt opciók:\n"
+"--page <oldal>    A(z) <oldal> oldal megjelenítése\n"
+
+#: ../src/system-config-date.py:56
+#: ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "„%s” opció(k) ismeretlen(ek)\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "Nem földrajzi időzónák"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ", "
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "A kiválasztott város: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "A kiválasztott város: %s"
+
+#: ../src/timezone_map_gui.py:294
+#: ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "Kérem válassza ki az időzónáján belül a legközelebbi várost:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "Az egérgombokkal mozgathatja a térképet, a görgővel pedig nagyíthatja illetve kicsinyítheti azt."
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "Dátum és idő tulajdonságok"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr "Pillanatnyi dátum és idő:"
+
+#: ../src/system-config-date.glade:113
+msgid "Use this option if you want to keep your computer's clock synchronized with an NTP time server."
+msgstr "Használja ezt az opciót, ha egy NTP kiszolgálóhoz akarja igazítani a számítógép óráját!"
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr "Dátum és idő  _szinkronizálása a hálózaton keresztül"
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr "Dátum és idő beállítása saját kezűleg:"
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr "<b>_Dátum</b>"
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "Ór_a: "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_Perc: "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_Másodperc: "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr "<b>Idő</b>"
+
+#: ../src/system-config-date.glade:495
+msgid "Synchronize date and time on your computer with a remote time server using the Network Time Protocol:"
+msgstr "Dátum és idő egyeztetése egy távoli időszolgáltatóval hálózati idő protokollt (NTP) használva:"
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP kiszolgálók</b>"
+
+#: ../src/system-config-date.glade:672
+msgid "Use iburst mode which takes less time for initial synchronization but generates more load on servers."
+msgstr "Iburst használata, mellyel csökkenthető a szinkronizáció ideje. Ez nagyobb terhelést jelent a kiszolgáló számára."
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr "_Szinkronizáció gyorsítása"
+
+#: ../src/system-config-date.glade:692
+msgid "Use this option if you have e.g. a radio controlled clock device that synchronizes your computer's clock with an authoritative time source."
+msgstr "Használja ezt az opciót, ha rendelkezik olyan – például rádióvezérlésű – órával, amely a számítógép óráját egy hiteles időforrással egyezteti!"
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "_Helyi időforrás használata"
+
+#: ../src/system-config-date.glade:711
+msgid "Use this option if your computer should broadcast for an NTP server on the local subnet."
+msgstr "Használja ezt az opciót, ha azt szeretné, hogy a számítógép egy NTP időkiszolgáló alapján időszórást végezzen a helyi alhálózaton!"
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP _szórás engedélyezése"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr "_Haladó beállítások"
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr "_Dátum és idő"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: ../src/system-config-date.glade:879
+msgid "Use this if you want to automatically switch between normal and daylight savings time. Don't use this if you have other operating systems on this computer which adjust the hardware clock to achieve this, e.g. Microsoft Windows(tm)."
+msgstr "Használja ezt, ha szeretne automatikus váltást a téli és a nyári időszámítás között! Ne használja ezt, ha van más operációs rendszer is a gépen, amely ilyen esetekben átállítja a hardver órát (például Microsoft Windows(tm))!"
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "A rendszer órája _UTC-t használ"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "Idő_zóna"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "Dátum és idő"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "Kapcsolódás az NTP kiszolgálóhoz. Kérem várjon…"
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "Használja ezt az opciót, ha a rendszerórát a kiválasztott "
+#~ "időkiszolgálóhoz még a szolgáltatás elindítása előtt kell szinkronizálni! "
+#~ "Ne használja ezt az opciót, ha a kiválasztott időszerver nem érhető el "
+#~ "rendszeresen, pl. laptopon, mert az időegyeztetés megállíthatja a "
+#~ "rendszert a válaszidő leteltéig!"
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "Rendszeróra _egyeztetése a szolgáltatás elindítása előtt"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "A szöveges módú felület elavult\n"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "Válasszon időzónát!"
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "A rendszer órája UTC-t használ"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "Időzóna kiválasztása"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "A timeconfig program csak rendszergazdaként futtatható."
+
+#~ msgid "Synchronize date and time over the network"
+#~ msgstr "Dátum és idő egyeztetése a hálózaton át"
+
+#~ msgid "_Advanced Options"
+#~ msgstr "_Haladó beállítások"
+
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr "Hiba az időzóna másolásakor (%(fromFile)s fájlból): %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "%s időzóna jogosultságának megváltoztatása"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr ""
+#~ "Hiba történt /var/spool/postfix/etc/localtime fájl eltávolítása közben"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "_Haladó opciók elrejtése"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "_Haladó opciók megjelenítése"
+
+#~ msgid "_Date"
+#~ msgstr "_Dátum"
+
+#~ msgid "Current Time : "
+#~ msgstr "Az idő most: "
+
+#~ msgid "Time"
+#~ msgstr "Idő"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP kiszolgálók"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Dátum és _idő"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "A számítógép órája egy távoli kiszolgáló órájával egyeztethető NTP "
+#~ "(hálózat idő protokoll) használatával"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "_Hálózati időegyeztetés (NTP) engedélyezése"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "Háló_zati idő protokoll (NTP)"
+
+#~ msgid "Help is not available."
+#~ msgstr "Nem érhető el segítség."
+
+# print (_("Error copying timezone (from %s): %s") % (fromFile, msg))
+#, fuzzy
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "Nem sikerült átmásolni az időzónát (innen: %s): %s"
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "Válassza ki az időzónán belül a legközelebbi várost:"
+
+#~ msgid "Magnification: small"
+#~ msgstr "Nagyítás: kicsi"
+
+#~ msgid "large"
+#~ msgstr "nagy"
+
+#~ msgid "Use button 2 or 3 for panning"
+#~ msgstr "Úsztatáshoz használja az egér 2. vagy 3. gombját"

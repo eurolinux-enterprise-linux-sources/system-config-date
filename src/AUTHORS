@@ -1,0 +1,7 @@
+Brent Fox <bfox@redhat.com>
+Tammy Fox <tfox@redhat.com>
+Preston Brown <pbrown@redhat.com>
+Nils Philippsen <nphilipp@redhat.com>
+
+The contents of timezone_map_gui.py were borrowed from Anaconda (the Red Hat Linux installer) and were originally written by:
+Matt Wilson <msw@redhat.com>

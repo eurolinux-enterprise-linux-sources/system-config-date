@@ -1,0 +1,384 @@
+# Persian translation of system-config-date
+# This file is distributed under the same license as the system-config-date package.
+# Copyright (C) 2003, 2004 Hedayat Vatankhah.
+# Copyright (C) 2005, 2006 Sharif FarsiWeb, Inc.
+# Hedayat Vatankhah <hedavat@mail15.com>, 2003, 2004.
+# Reza Mohammadi <remohammadi@cs.sharif.edu>, 2005.
+# Meelad Zakaria <meelad@farsiweb.info>, 2005, 2006.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2006-05-12 20:52+0330\n"
+"Last-Translator: Roozbeh Pournader <roozbeh@farsiweb.info>\n"
+"Language-Team: Persian <farsi@lists.sharif.edu>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "کارگزار "
+
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+
+# "به‌نظر نمی‌آید که کد‌نوشتهٔ راه‌اندازی (%s) NTP درست کار کند.  «rpm -V ntp» را "
+# "اجرا کنید تا ببینید کدنوشتهٔ راه‌اندازی تغییر داده شده یا نه.  حالا system-"
+# "config-date خارج می‌شود."
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "خطا"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "بررسی قابل دسترسی بودن کارگزار NTP ‏«%s»..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"شما از بررسی قابل دسترسی بودن کارگزار NTP‏ «%s» صرف نظر کردید. آیا با این "
+"وجود می‌خواهید تغییراتتان را اِعمال کنید؟"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"میزبان «%s» قابل دسترسی نیست یا مثل کارگزار NTP عمل نمی‌کند. آیا با این وجود "
+"می‌خواهید تغییراتتان را اِعمال کنید؟"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "کارگزار NTP جدید"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr ""
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "تغییر تاریخ و زمان سیستم"
+
+#: ../src/scdMainWindow.py:63
+#, fuzzy, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"ارتباط با هیچ یک از کارگزارهای زیر ممکن نیست:\n"
+"\n"
+"%s\n"
+"\n"
+"یا هیچ یک از آن‌ها در دسترس نیستند و یا تنظیمات دیوار آتش کامپیوترتان "
+"اتصال‌های NTP را مسدود می‌کند."
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr ""
+
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr ""
+"لطفاً یک کارگزار NTP برای استفاده مشخص کنید و یا انتشار عام NTP را فعال کنید."
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "option(s) '%s' not recognized\n"
+
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "مناطق زمانی غیر جغرافیایی"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ""
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr ""
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr ""
+
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+#, fuzzy
+msgid "Please select the nearest city in your time zone:"
+msgstr "لطفاً نزدیک‌ترین شهر در منطقهٔ زمانی خود را انتخاب کنید:"
+
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "ویژگی‌های تاریخ/زمان"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr ""
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"اگر می‌خواهید ساعت رایانه‌تان را با یک سرور NTP همگام نگه دارید، از این گزینه "
+"استفاده کنید."
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr ""
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr ""
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "_ساعت : "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "_دقیقه : "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "_ثانیه : "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"اگر به عنوان مثال دستگاه ساعتی دارید که با رادیو کنترل می‌شود و ساعت "
+"رایانه‌تان را با یک منبع زمان معتبر همگام می‌سازد، از این گزینه استفاده کنید."
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "استفاده از منبع زمان م_حلی"
+
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"اگر رایانهٔ شما باید درخواست خود را برای یک کارگزار NTP در سراسر زیرشبکه "
+"منتشر کند، این گزینه را انتخاب کنید."
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "به کار انداختن _منتشرکننده NTP"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr ""
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr ""
+
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "ساعت _سیستم از وقت گرینیچ استفاده می‌کند"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "منطقهٔ _زمانی"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "تاریخ و زمان"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "در حال اتصال به کارگزار NTP. لطفاً صبر کنید..."
+
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "اگر ساعت سیستمتان باید پیش از آغاز سرویس با کارگزار زمان تنظیم شود این "
+#~ "گزینه را انتخاب کنید. اگر کارگزار زمانتان در اکثر مواقع قابل دسترسی "
+#~ "نیست ، مثلاً در کامپیوترهای کیفی از این گزینه استفاده نکنید. چون ممکن است "
+#~ "همگام‌سازی تا انقضای مدت تعیین شده جلوی کار سیستم را بگیرد."
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "_همگام‌سازی ساعت سیستم پیش از آغاز سرویس"
+
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "Text mode interface is deprecated\n"
+
+#~ msgid "OK"
+#~ msgstr "تایید"
+
+#~ msgid "Cancel"
+#~ msgstr "انصراف"
+
+#, fuzzy
+#~ msgid "Select the time zone for the system."
+#~ msgstr "منطقهٔ زمانی سیستم را انتخاب کنید."
+
+#~ msgid "System clock uses UTC"
+#~ msgstr "ساعت سیستم از وقت گرینویچ استفاده می‌کند"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "انتخاب منطقهٔ زمانی"
+
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "برای اجرای timeconfig باید root باشید."
+
+#, fuzzy
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "تغییر اجازهٔ منطقهٔ زمانی: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "خطا در حذف /var/spool/postfix/etc/localtime"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "پنهان کردن گزینه‌های _پیشرفته"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "نشان دادن گزینه‌های _پیشرفته"
+
+#~ msgid "_Date"
+#~ msgstr "_تاریخ"
+
+#~ msgid "Current Time : "
+#~ msgstr "زمان فعلی : "
+
+#~ msgid "Time"
+#~ msgstr "زمان"
+
+#~ msgid "NTP Servers"
+#~ msgstr "کارگزارهای NTP"
+
+#~ msgid "Date & _Time"
+#~ msgstr "تاریخ و _زمان"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "رایانهٔ شما می‌تواند زمان خود را با یک کارگزار دوردست زمان که از قرارداد "
+#~ "زمان شبکه‌ای استفاده می‌کند همگام کند."
+
+#, fuzzy
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "به _کار انداختن قرارداد زمان شبکه‌ای"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "قرارداد زمان شبکه_"
+
+#~ msgid "Help is not available."
+#~ msgstr "راهنما موجود نیست."
+
+#, fuzzy
+#~ msgid "Error copying time zone (from %s): %s"
+#~ msgstr "خطا در نسخه‌برداری از منطقهٔ زمانی (از %s): %s"
+
+#~ msgid "Please select the nearest city in your timezone:"
+#~ msgstr "لطفاً نزدیک‌ترین شهر در منطقهٔ زمانی خود را انتخاب کنید:"
+
+#~ msgid "Please click into the map to choose a region:"
+#~ msgstr "لطفاً برای انتخاب منطقه روی نقشه کلیک کنید:"

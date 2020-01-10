@@ -1,0 +1,396 @@
+# translation of system-config-date.tip.po to Bengali
+# Bangla Translation of Redhat-config-date
+# Copyright (C) 2003-2006, Red Hat, Inc.
+# This file is distributed under the same license as the Redhat-config-date package.
+#
+# Sayem <s_hasan_du@hotmail.com>, 2003.
+# Progga <progga@BengaLinux.Org>, 2003-2006.
+# Mahay Alam Khan (মাহে আলম) <makl10n@yahoo.com>, 2006.
+# Angel <rahmanangel@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date.tip\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-02 13:08+0200\n"
+"PO-Revision-Date: 2008-03-02 20:09+0600\n"
+"Last-Translator: Angel <rahmanangel@gmail.com>\n"
+"Language-Team: Bengali <fedora-trans-bn@redhat.com>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/date_gui.py:131
+msgid "Server"
+msgstr "সার্ভার"
+
+# modified by RB
+#: ../src/date_gui.py:150
+#, python-format
+msgid ""
+"The NTP initscript (%s) does not seem to be functioning properly.  Try "
+"running 'rpm -V ntp' to see if the initscript has been modified.  system-"
+"config-date will exit now."
+msgstr ""
+"সম্ভবত NTP initscript (%s) ঠিক মত কাজ করছে না।  initscript-এ কোন পরিবর্তন করা "
+"হয়েছে কি না 'rpm -V ntp' চালিয়ে জানার চেষ্টা করুন।  system- config-date এখন "
+"বন্ধ হয়ে যাবে।"
+
+#: ../src/date_gui.py:156 ../src/scdMainWindow.py:309
+msgid "Error"
+msgstr "ভুল"
+
+#: ../src/date_gui.py:312
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "NTP সার্ভার '%s'-এর সাথে যোগাযোগ করা যায় কিনা তা পরীক্ষা করা হচ্ছে..."
+
+#: ../src/date_gui.py:331
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"আপনি NTP সার্ভার '%s'-এর সাথে যোগাযোগের পরীক্ষা বাতিল করেছেন।  আপনি কি এখনো "
+"আপনার করা পরিবর্তনগুলো সক্রিয় করতে চান?"
+
+#: ../src/date_gui.py:345
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr ""
+"'%s' হোস্ট কম্পিউটারটির সাথে যোগাযোগ করা যাচ্ছে না অথবা এটি আদৌ কোন NTP সার্ভার "
+"নয়।  আপনি কি এখনো আপনার করা পরিবর্তনগুলো সক্রিয় করতে চান?"
+
+#: ../src/date_gui.py:376
+msgid "New NTP Server"
+msgstr "নতুন NTP সার্ভার"
+
+#: ../src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr ""
+
+#: ../src/scdMainWindow.py:47 ../system-config-date.desktop.in.h:1
+msgid "Change system date and time"
+msgstr "সিস্টেমের তারিখ ও সময় পরিবর্তন করুন"
+
+#: ../src/scdMainWindow.py:63
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer "
+"are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr ""
+"এই টাইম সার্ভারগুলোর কোনটির সাথেও সংযোগ স্থাপন করা যায় নি:\n"
+"\n"
+"%s\n"
+"\n"
+"সম্ভবত, সার্ভারগুলোর মধ্যে একটিও সচল নেই অথবা আপনার কম্পিউটারে নির্ধারিত ফায়ারওয়াল "
+"সংক্রান্ত  বৈশিষ্ট্যাবলী NTP সংযোগকে বাধা দিচ্ছে।"
+
+#: ../src/scdMainWindow.py:87
+msgid "Failed to set time and date."
+msgstr "সময় ও তারিখ নির্ধারণ করতে ব্যর্থ।"
+
+# odified by An
+#: ../src/scdMainWindow.py:90
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr ""
+"হার্ডওয়্যারের ঘড়ি সিনক্রোনাইজ করতে ব্যর্থ। কারন সম্ভবত কোন হার্ডওয়্যারের ঘড়ি "
+"প্রবেশযোগ্য নয়। উদাহরণস্বরূপ যখন ভার্চুয়াল পরিবেশে চালু হয়।"
+
+# odified by An
+#: ../src/scdMainWindow.py:103
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "অনুগ্রহপূর্বক একটি NTP সার্ভার উল্লেখ করুন অথবা NTP সম্প্রচার সক্রিয় করুন।"
+
+#: ../src/scdMainWindow.py:107
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr ""
+
+#: ../src/scdMainWindow.py:156
+msgid "Starting NTP service. Please wait."
+msgstr ""
+
+# odified by An
+# ইনস্টল by Jm
+#: ../src/scdMainWindow.py:287
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr ""
+"হেল্প ভিউয়ার পাওয়া যায় নি। হেল্প ভিউয়ার এর জন্য 'yelp' প্যাকেজটি ইনস্টল করুন।"
+
+# dified by An
+# পরবর্তী ২টা string টেক্সট মোডের বলে এদের অনুবাদ করার দরকার নাই।
+#: ../src/system-config-date.py:38
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr ""
+"ব্যবহারপ্রণালী: system-config-date [options]\n"
+"ব্যবহারকারীর অপশন:\n"
+"-h|--help        Display this help message\n"
+"সংরক্ষিত অপশন:\n"
+"--page <page>    Display page <page>\n"
+
+#: ../src/system-config-date.py:56 ../src/system-config-date.py:61
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "'%s' অপশনকে সনাক্ত করা যায় নি\n"
+
+# odified by An
+#: ../src/timezone_map_gui.py:179
+msgid "Non-geographic timezones"
+msgstr "অভৌগলিক সময়ের অঞ্চল"
+
+#: ../src/timezone_map_gui.py:255
+msgid ", "
+msgstr ","
+
+#: ../src/timezone_map_gui.py:266
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "নির্বাচিত শহর: %(city)s (%(comments)s)"
+
+#: ../src/timezone_map_gui.py:268
+#, python-format
+msgid "Selected city: %s"
+msgstr "নির্বাচিত শহর: %s"
+
+# odified by An
+#: ../src/timezone_map_gui.py:294 ../src/system-config-date.glade:839
+msgid "Please select the nearest city in your time zone:"
+msgstr "অনুগ্রহপূর্বক আপনার সময় অঞ্চলের সবচেয়ে নিকটবর্তী শহরটিকে বেছে নিন:"
+
+# odified by An
+#: ../src/timezone_map_gui.py:333
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr ""
+"বাটন ২ অথবা ৩ ব্যবহার করে প্রদর্শিত অংশ পরিবর্তন করুন ও স্ক্রোলউইল ব্যবহার করে "
+"প্রদর্শিত অংশ বড় অথবা ছোট করুন।"
+
+#: ../src/system-config-date.glade:8
+msgid "Date/Time Properties"
+msgstr "তারিখ/সময় সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../src/system-config-date.glade:56
+msgid "Current date and time:"
+msgstr ""
+
+#: ../src/system-config-date.glade:113
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr ""
+"আপনার কম্পিউটারের ঘড়ির সময়কে যদি কোন NTP টাইম সার্ভারের সাথে মিলিয়ে রাখতে চান, "
+"তবে এই অপশনটি ব্যবহার করুন।"
+
+#: ../src/system-config-date.glade:115
+msgid "S_ynchronize date and time over the network"
+msgstr ""
+
+#: ../src/system-config-date.glade:150
+msgid "Manually set the date and time of your system:"
+msgstr ""
+
+#: ../src/system-config-date.glade:211
+msgid "<b>_Date</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:260
+msgid "_Hour : "
+msgstr "ঘন্টা (_H): "
+
+#: ../src/system-config-date.glade:289
+msgid "_Minute : "
+msgstr "মিনিট (_M): "
+
+#: ../src/system-config-date.glade:318
+msgid "_Second : "
+msgstr "সেকেন্ড (_S): "
+
+#: ../src/system-config-date.glade:412
+msgid "<b>Time</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:495
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr ""
+
+#: ../src/system-config-date.glade:628
+msgid "<b>NTP Servers</b>"
+msgstr ""
+
+#: ../src/system-config-date.glade:672
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr ""
+
+#: ../src/system-config-date.glade:674
+msgid "_Speed up initial synchronization"
+msgstr ""
+
+# odified by An
+#: ../src/system-config-date.glade:692
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr ""
+"আপনার কম্পিউটারে যদি এমন কোন বেতার নিয়ন্ত্রিত যন্ত্র থাকে, যা কম্পিউটারের ঘড়িকে "
+"কোন কর্তৃপক্ষ-নির্ধারিত সময় উৎ‍সের সাথে মিলিয়ে রাখে, তবে এই অপশনটি ব্যবহার করুন।"
+
+#: ../src/system-config-date.glade:694
+msgid "Use _Local Time Source"
+msgstr "স্থানীয় সময় নির্দেশক ব্যবহার করুন (_L)"
+
+# odified by An
+#: ../src/system-config-date.glade:711
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr ""
+"আপনি যদি চান যে, আপনার কম্পিউটার একটি NTP সার্ভারের খোঁজে স্থানীয় সাবনেটে "
+"সম্প্রচার করবে, তবে এই অপশন ব্যবহার করুন।"
+
+#: ../src/system-config-date.glade:713
+msgid "Enable NTP _Broadcast"
+msgstr "NTP সম্প্রচার সক্রিয় করুন (_B)"
+
+#: ../src/system-config-date.glade:733
+msgid "Ad_vanced Options"
+msgstr ""
+
+#: ../src/system-config-date.glade:809
+msgid "Date and _Time"
+msgstr ""
+
+# odified by An
+#: ../src/system-config-date.glade:879
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr ""
+"স্বাভাবিক ও দিবালোক সংরক্ষণ সময়ের মধ্যে স্বয়ংক্রিয়রূপে পরিবর্তন করতে এটি ব্যবহার "
+"করুন। হার্ডওয়্যারের ঘড়ি প্রয়োগ করে এই পরিবর্তনকারী অন্যান্য অপারেটিং সিস্টেম যেমন "
+"Microsoft Windows(tm) কম্পিউটারে উপস্থিত থাকলে এটি ব্যবহার করবেন না।"
+
+# odified by An
+#: ../src/system-config-date.glade:881
+msgid "_System clock uses UTC"
+msgstr "সিস্টেমের ঘড়িতে UTC (বিশ্বব্যাপি সময়) ব্যবহার করা হবে (_S)"
+
+#: ../src/system-config-date.glade:905
+msgid "Time _Zone"
+msgstr "সময়-অঞ্চল (_Z)"
+
+#: ../system-config-date.desktop.in.h:2
+msgid "Date & Time"
+msgstr "তারিখ ও সময়"
+
+#~ msgid "Contacting NTP server.  Please wait..."
+#~ msgstr "NTP সার্ভারের সাথে যোগাযোগ করা হচ্ছে।  অনুগ্রহপূর্বক অপেক্ষা করুন..."
+
+# odified by An
+#~ msgid ""
+#~ "Use this option if the system clock should be synchronized to your time "
+#~ "server before starting the service. Don't use this option if your time "
+#~ "server regularly can't be reached, e.g. on a laptop, as synchronization "
+#~ "may block until a timeout has passed."
+#~ msgstr ""
+#~ "সার্ভিস আরম্ভ হওয়ার পূর্বে সিস্টেমের ঘড়িকে সিনক্রোনাইজ করতে হলে এই অপশনটি "
+#~ "ব্যবহার করুন। যদি টাইম সার্ভার সবসময় না পাওয়া যায় তাহলে এটি ব্যবহার করবেন না, "
+#~ "উদাহরণস্বরূপ একটি ল্যাপটপে টাইমআউট পাস না হওয়া পর্যন্ত সিনক্রোনাইজেশন ব্লক থাকতে "
+#~ "পারে।"
+
+#~ msgid "S_ynchronize system clock before starting service"
+#~ msgstr "সার্ভিস আরম্ভ করার পূর্বে সিস্টেম এর ঘড়ি সিনক্রোনাইজ করুন (_y)"
+
+# odified by An
+#~ msgid "Text mode interface is deprecated\n"
+#~ msgstr "টেক্সট মোড ইন্টারফেস অনুমোদন করা হয়নি\n"
+
+#~ msgid "OK"
+#~ msgstr "ঠিক আছে"
+
+#~ msgid "Cancel"
+#~ msgstr "বাতিল"
+
+#~ msgid "Select the time zone for the system."
+#~ msgstr "সিস্টেমের জন্য সময়-অঞ্চল বেছে নিন।"
+
+# odified by An
+#~ msgid "System clock uses UTC"
+#~ msgstr "সিস্টেমের ঘড়িতে UTC (বিশ্বব্যাপি সময়) ব্যবহার করা হবে"
+
+#~ msgid "Timezone Selection"
+#~ msgstr "সময়-অঞ্চল নির্বাচন"
+
+# dified by An
+#~ msgid "You must be root to run timeconfig."
+#~ msgstr "timeconfig চালাতে হলে আপনাকে অবশ্যই root হতে হবে।"
+
+# odified by An
+# modified by Jm
+#~ msgid "Error copying time zone (from %(fromFile)s): %(msg)s"
+#~ msgstr "(%(fromFile)s হতে) সময়-অঞ্চল কপি করতে সমস্যা: %(msg)s"
+
+#~ msgid "Changing permission of time zone: %s"
+#~ msgstr "সময়-অঞ্চলের অনুমতি পরিবর্তন করা হচ্ছে: %s"
+
+#~ msgid "Error removing /var/spool/postfix/etc/localtime"
+#~ msgstr "/var/spool/postfix/etc/localtime নামের ফাইল মুছে ফেলতে সমস্যা হয়েছে"
+
+#~ msgid "_Hide advanced options"
+#~ msgstr "অগ্রসর অপশন আড়াল করা হবে (_H)"
+
+#~ msgid "_Show advanced options"
+#~ msgstr "অগ্রসর অপশন প্রদর্শন করা হবে (_S)"
+
+#~ msgid "_Date"
+#~ msgstr "তারিখ (_D)"
+
+#~ msgid "Current Time : "
+#~ msgstr "বর্তমান সময় : "
+
+#~ msgid "Time"
+#~ msgstr "সময়"
+
+#~ msgid "NTP Servers"
+#~ msgstr "NTP সার্ভার"
+
+#~ msgid "Date & _Time"
+#~ msgstr "তারিখ ও সময় (_T)"
+
+#~ msgid ""
+#~ "Your computer can synchronize its clock with a remote time server using "
+#~ "the Network Time Protocol"
+#~ msgstr ""
+#~ "নেটওয়ার্ক টাইম প্রোটোকল ব্যবহার করে আপনার কম্পিউটার দূরবর্তী টাইম সার্ভারের সাথে "
+#~ "তার সময় মেলাতে পারে।"
+
+#~ msgid "Enable _Network Time Protocol"
+#~ msgstr "নেটওয়ার্ক টাইম প্রোটোকল সক্রিয় করুন(_N)"
+
+#~ msgid "Net_work Time Protocol"
+#~ msgstr "নেটওয়ার্ক টাইম প্রোটোকল (_w)"

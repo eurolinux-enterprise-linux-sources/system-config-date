@@ -1,0 +1,3 @@
+@CONSOLE_PERMISSIONS_DIRECTIVE@
+PROGRAM=/usr/share/system-config-date/system-config-date.py
+SESSION=true
