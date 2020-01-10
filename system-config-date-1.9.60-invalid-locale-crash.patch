@@ -1,0 +1,41 @@
+From 368fdbe35da91d2cdd693684acd92915f7bc6c59 Mon Sep 17 00:00:00 2001
+From: Nils Philippsen <nils@redhat.com>
+Date: Wed, 7 Dec 2011 14:45:26 +0100
+Subject: [PATCH] catch locale.setlocale() exceptions and warn instead
+
+---
+ src/scdate/core/zonetab.py | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+diff --git a/src/scdate/core/zonetab.py b/src/scdate/core/zonetab.py
+index 0c9ede9..bd0b901 100644
+--- a/src/scdate/core/zonetab.py
++++ b/src/scdate/core/zonetab.py
+@@ -40,6 +40,8 @@ class ZoneTabEntry(object):
+     __tz_seen = set()
+     __tz_translations = {}
+ 
++    __setlocale_exceptions_caught = set()
++
+     _slash_lookalikes = (
+             u"\u2044",      # FRACTION SLASH
+             u"\u2215",      # DIVISION SLASH
+@@ -82,7 +84,14 @@ class ZoneTabEntry(object):
+ 
+         (lang, coding) = locale.getlocale()
+         if lang is None:
+-            locale.setlocale(locale.LC_ALL, "")
++            try:
++                locale.setlocale(locale.LC_ALL, "")
++            except Exception, e:
++                e_str = str(e)
++                if e_str not in self.__setlocale_exceptions_caught:
++                    warnings.warn ("Couldn't set locale: %s" % e,
++                            RuntimeWarning, stacklevel=4)
++                    self.__setlocale_exceptions_caught.add(e_str)
+             (lang, coding) = locale.getlocale()
+ 
+         if not (lang in (None, "C", "POSIX", "en") or lang.startswith("en_")):
+-- 
+1.8.1.4
+

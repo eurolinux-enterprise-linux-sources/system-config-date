@@ -25,13 +25,16 @@
 Summary: A graphical interface for modifying system date and time
 Name: system-config-date
 Version: 1.9.60
-Release: 1%{?dist}
+Release: 2%{?dist}
 URL: http://fedorahosted.org/%{name}
 License: GPLv2+
 Group: System Environment/Base
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 Source0: http://fedorahosted.org/released/%{name}/%{name}-%{version}.tar.bz2
+# don't crash on invalid locale (#760977)
+# upstream commit 368fdbe35da91d2cdd693684acd92915f7bc6c59
+Patch0: system-config-date-1.9.60-invalid-locale-crash.patch
 # Until version 1.9.34, system-config-date contained online documentation.
 # From version 1.9.35 on, online documentation is split off into its own
 # package system-config-date-docs. The following ensures that updating from
@@ -76,6 +79,7 @@ synchronize the time of the system with an NTP time server.
 
 %prep
 %setup -q
+%patch0 -p1 -b .invalid-locale-crash
 
 %build
 make \
@@ -129,6 +133,9 @@ fi
 #%{python_sitelib}/scdate.dbus-%{version}-py%{python_version}.egg-info
 
 %changelog
+* Wed Jun 19 2013 Nils Philippsen <nils@redhat.com> - 1.9.60-2
+- don't crash on invalid locale (#760977)
+
 * Fri Aug 06 2010 Nils Philippsen <nils@redhat.com> - 1.9.60-1
 - recreate TZ translations after each language change
 
