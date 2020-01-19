@@ -1,0 +1,59 @@
+diff --git a/src/scdate/core/servicesBackend.py b/src/scdate/core/servicesBackend.py
+index 196c305..b11047c 100644
+--- a/src/scdate/core/servicesBackend.py
++++ b/src/scdate/core/servicesBackend.py
+@@ -4,7 +4,7 @@
+ #                      services, very much tailored to s-c-date needs, doesn't
+ #                      care for xinetd services
+ #
+-# Copyright © 2011 Red Hat, Inc.
++# Copyright © 2011, 2014 Red Hat, Inc.
+ #
+ # This program is free software; you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+@@ -31,10 +31,17 @@ class AbstractServices(object):
+ 
+     executables = ()
+ 
++    @staticmethod
++    def which(*candidates):
++        for c in candidates:
++            if os.access(c, os.X_OK):
++                return c
++
+     @classmethod
+     def check_flavor(cls):
+         for exe in cls.executables:
+-            if not os.access(exe, os.X_OK):
++            # which() might return None if it doesn't find a suitable candidate
++            if not (exe and os.access(exe, os.X_OK)):
+                 return False
+         return True
+ 
+@@ -76,10 +83,13 @@ class AbstractServices(object):
+         raise NotImplementedError()
+ 
+ 
++_which = AbstractServices.which
++
++
+ class SysVServices(AbstractServices):
+ 
+-    chkconfig = "/sbin/chkconfig"
+-    service = "/sbin/service"
++    chkconfig = _which("/usr/sbin/chkconfig", "/sbin/chkconfig")
++    service = _which("/usr/sbin/service", "/sbin/service")
+ 
+     executables = (chkconfig, service)
+ 
+@@ -123,8 +133,8 @@ class SysVServices(AbstractServices):
+ 
+ class SystemDServices(AbstractServices):
+ 
+-    systemctl = "/bin/systemctl"
+-    systemd = "/bin/systemd"
++    systemctl = _which("/usr/bin/systemctl", "/bin/systemctl")
++    systemd = _which("/usr/lib/systemd/systemd", "/bin/systemd")
+     cgroups_mount = "/sys/fs/cgroup"
+     systemd_cgroups_mount = cgroups_mount + "/systemd"
+     units_basedir = "/lib/systemd/system/"
