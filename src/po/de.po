@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Bernd Bartmann <Bernd.Bartmann@sohanet.de>, 2004
+# Bernd Groh <bgroh@redhat.com>, 2002-2004
+# Claudia Krug <fhonig@redhat.it>, 2001
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Eduard Pech <kongretkrassescheissendreck@simstim.net>, 2004
+# Fabian Affolter <fab@fedoraaproject.org>, 2007
+# Fabian Affolter <fab@fedoraproject.org>, 2008-2009
+# Gerd Koenig <gkoenig@fedoraproject.org>, 2010
+# hpeters <hpeters@redhat.com>, 2009
+# Jens <jensm@fedoraproject.org>, 2009
+# Laurin <lineak@fedoraproject.org>, 2011
+# Marcus Nitzschke <kenda@fedoraproject.org>, 2009
+# Mario Blättermann <mariobl@freenet.de>, 2011
+# Nils Philippsen <nils@redhat.com>, 2009-2010,2012
+# Roman Spirgi <bigant@fedoraproject.org>, 2012
+# Roman Spirgi <rspirgi@gmail.com>, 2011
+# Ronny Buchmann <ronny-vlug@vlugnet.org>, 2005-2006
+# sknirT omiT <moc.tahder@sknirtt>, 2010
+# Thomas Ritter <nethad@gmx.net>, 2005
+# Verena <vfuehrer@redhat.com>, 2004
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: http://fedorahosted.org/system-config-date\n"
+"POT-Creation-Date: 2012-12-10 17:18+0100\n"
+"PO-Revision-Date: 2013-04-29 09:35+0000\n"
+"Last-Translator: Dimitris Glezos <glezos@transifex.com>\n"
+"Language-Team: German <trans-de@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/date_gui.py:141
+msgid "Server"
+msgstr "Server"
+
+#: src/date_gui.py:168
+#, python-format
+msgid ""
+"The NTP daemon '%(ntp_daemon)s' or its init script '%(service_config)s' does"
+" not seem to be working properly, or its configuration file '%(ntp_config)s'"
+" could not be read.  system-config-date will exit now."
+msgstr "Der NTP-Daemon »%(ntp_daemon)s« oder dessen Initskript »%(service_config)s« scheint entweder nicht sauber zu arbeiten oder die Konfigurationsdatei »%(ntp_config)s« kann nicht gelesen werden. System-config-date wird nun beendet."
+
+#: src/date_gui.py:175
+#, python-format
+msgid ""
+"The NTP daemon '%(ntp_daemon)s' or its systemd unit configuration does not "
+"seem to be working properly, or its configuration file '%(ntp_config)s' "
+"could not be read.  system-config-date will exit now."
+msgstr "Der NTP-Daemon »%(ntp_daemon)s« oder dessen Systemd-Unit-Konfiguration scheint entweder nicht sauber zu arbeiten oder die Konfigurationsdatei »%(ntp_config)s« kann nicht gelesen werden. System-config-date wird nun beendet."
+
+#: src/date_gui.py:191 src/scdMainWindow.py:349
+msgid "Error"
+msgstr "Fehler"
+
+#: src/date_gui.py:359
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Überprüfung, ob NTP-Server »%s« erreichbar ist …"
+
+#: src/date_gui.py:380
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr "Sie haben die Überprüfung zur Erreichbarkeit des NTP-Servers »%s« abgebrochen. Möchten Sie Ihre Änderungen immer noch übernehmen?"
+
+#: src/date_gui.py:397
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr "Der Host »%s« ist nicht erreichbar oder nicht als NTP-Server eingerichtet. Möchten Sie Ihre Änderungen immer noch übernehmen?"
+
+#: src/date_gui.py:432
+msgid "New NTP Server"
+msgstr "Neuer NTP-Server"
+
+#: src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Datum und Zeit"
+
+#: src/scdMainWindow.py:47 config/system-config-date.desktop.in.h:4
+msgid "Change system date and time"
+msgstr "Systemdatum und -uhrzeit ändern"
+
+#: src/scdMainWindow.py:65
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr "Es konnte keine Verbindung zu einem dieser Zeit-Server hergestellt werden: \n\n%s\n\nEntweder ist keiner verfügbar, oder die Firewall-Einstellungen Ihres Computers verhindern NTP-Verbindungen. \nMöchten Sie Ihre Konfiguration ändern, um dieses Problem zu umgehen?"
+
+#: src/scdMainWindow.py:98
+msgid "Failed to set time and date."
+msgstr "Setzen der Zeit und des Datums fehlgeschlagen"
+
+#: src/scdMainWindow.py:102
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr "Synchronisieren der Hardware-Uhr fehlgeschlagen. Dies könnte darauf zurückzuführen sein, dass kein Zugriff auf die Hardware-Uhr möglich ist, beispielsweise wenn Sie in einer virtuellen Umgebung arbeiten."
+
+#: src/scdMainWindow.py:118
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Bitte geben Sie einen NTP-Server an, um das NTP-Broadcast-Verfahren zu benutzen oder zu aktivieren."
+
+#: src/scdMainWindow.py:128
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr "Weder die Datei /etc/ntp.conf noch die Datei /etc/sysconfig/network konnte geschrieben werden.\nDie Konfiguration bleibt unverändert."
+
+#: src/scdMainWindow.py:166
+#, python-format
+msgid "Error while trying to fork child process: %(strerror)s"
+msgstr "Fehler beim Aufgliedern des Unterprozesses: %(strerror)s"
+
+#: src/scdMainWindow.py:189
+msgid "Starting NTP service. Please wait."
+msgstr "Der NTP-Dienst wird gestartet. Bitte warten."
+
+#: src/scdMainWindow.py:323
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr "Das Hilfeanzeigeprogramm kann nicht gefunden werden. Um die Hilfe ansehen zu können, müssen Sie das »yelp«-Paket installieren."
+
+#: src/scdMainWindow.py:351
+msgid "Warning"
+msgstr "Warnung"
+
+#: src/scdMainWindow.py:353
+msgid "Info"
+msgstr "Info"
+
+#: src/system-config-date.py:39
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr "Aufruf: system-config-date [Optionen]\nBenutzer-Optionen:\n-h|--help        Diese Hilfe-Nachricht anzeigen\nreservierte Optionen:\n--page <page>    Seite <page> anzeigen\n"
+
+#: src/system-config-date.py:51
+#, python-format
+msgid ""
+"Error while initializing GUI toolkit: %(error)s\n"
+"This program must be run in a graphical environment."
+msgstr "Fehler beim Initialisieren des grafischen Toolkits: %(error)s\nDiese Anwendung muss in einer grafischen Benutzeroberfläche ausgeführt werden."
+
+#: src/system-config-date.py:66 src/system-config-date.py:71
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "Option(en) »%s« nicht erkannt\n"
+
+#: src/timezone_map_gui.py:189
+msgid "Non-geographic timezones"
+msgstr "Nicht-geografische Zeitzonen"
+
+#: src/timezone_map_gui.py:273
+msgid ", "
+msgstr ", "
+
+#: src/timezone_map_gui.py:284
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Ausgewählte Stadt: %(city)s (%(comments)s)"
+
+#: src/timezone_map_gui.py:289
+#, python-format
+msgid "Selected city: %s"
+msgstr "Ausgewählte Stadt: %s"
+
+#: src/timezone_map_gui.py:318 src/system-config-date.glade.h:22
+msgid "Please select the nearest city in your time zone:"
+msgstr "Bitte wählen Sie die nächstgelegene Stadt in Ihrer Zeitzone:"
+
+#: src/timezone_map_gui.py:358
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "Benutzen Sie die Maustaste 2 oder 3 zum Verschieben und das Scrollrad zum Vergrößern oder Verkleinern."
+
+#. TRANSLATORS: don't translate "System-Config-Date", the name of the
+#. application
+#: src/system-config-date.glade.h:2
+msgid "System-Config-Date - Configure Date, Time and Time Zone"
+msgstr "System-Config-Date - Datum, Uhrzeit und Zeitzone einstellen"
+
+#: src/system-config-date.glade.h:3
+msgid "Current date and time:"
+msgstr "Aktuelles Datum und Zeit:"
+
+#: src/system-config-date.glade.h:4
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr "Verwenden Sie diese Option, um die Uhr in Ihrem Rechner mit einem NTP-Zeitserver zu synchronisieren."
+
+#: src/system-config-date.glade.h:5
+msgid "S_ynchronize date and time over the network"
+msgstr "Datum und Zeit über das Netzwerk s_ynchronisieren"
+
+#: src/system-config-date.glade.h:6
+msgid "Manually set the date and time of your system:"
+msgstr "Das Datum und die Zeit für Ihr System manuell setzen:"
+
+#: src/system-config-date.glade.h:7
+msgid "<b>_Date</b>"
+msgstr "<b>_Datum</b>"
+
+#: src/system-config-date.glade.h:8
+msgid "_Hour : "
+msgstr "St_unde: "
+
+#: src/system-config-date.glade.h:9
+msgid "_Minute : "
+msgstr "_Minute: "
+
+#: src/system-config-date.glade.h:10
+msgid "_Second : "
+msgstr "_Sekunde: "
+
+#: src/system-config-date.glade.h:11
+msgid "<b>Time</b>"
+msgstr "<b>Zeit</b>"
+
+#: src/system-config-date.glade.h:12
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr "Das Datum und die Zeit auf Ihrem Rechner mit einem entfernten Zeit-Server über das Network Time Protocol abgleichen:"
+
+#: src/system-config-date.glade.h:13
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP-Server</b>"
+
+#: src/system-config-date.glade.h:14
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr "Benutzen Sie den iburst-Modus, um eine schnellere erstmalige Synchronisation durchzuführen. Dieser führt aber zu einer erhöhten Last auf dem Server."
+
+#: src/system-config-date.glade.h:15
+msgid "_Speed up initial synchronization"
+msgstr "_Beschleunigen der erstmaligen Synchronisation"
+
+#: src/system-config-date.glade.h:16
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr "Verwenden Sie diese Option, falls Sie z.B. eine Funkuhr besitzen, die die Uhr Ihres Rechners mit einer verlässlichen Zeitquelle synchronisiert."
+
+#: src/system-config-date.glade.h:17
+msgid "Use _Local Time Source"
+msgstr "_Lokale Zeitquelle benutzen"
+
+#: src/system-config-date.glade.h:18
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr "Verwenden Sie diese Option, falls Ihr Rechner im lokalen Netzwerk nach einem NTP-Server suchen soll."
+
+#: src/system-config-date.glade.h:19
+msgid "Enable NTP _Broadcast"
+msgstr "NTP-_Broadcast aktivieren"
+
+#: src/system-config-date.glade.h:20
+msgid "Ad_vanced Options"
+msgstr "Erweiterte Einstellungen"
+
+#: src/system-config-date.glade.h:21
+msgid "Date and _Time"
+msgstr "Datum und _Zeit"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: src/system-config-date.glade.h:24
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr "Verwenden Sie dies, wenn Sie automatisch zwischen normaler und Sommerzeit wechseln möchten. Verwenden Sie dies nicht, wenn Sie andere Betriebssysteme auf diesem Rechner haben, die zu diesem Zweck die Hardwareuhr anpassen, z.B. Microsoft Windows (tm)."
+
+#: src/system-config-date.glade.h:25
+msgid "_System clock uses UTC"
+msgstr "_Systemuhr verwendet UTC (koordinierte Weltzeit)"
+
+#: src/system-config-date.glade.h:26
+msgid "Time _Zone"
+msgstr "_Zeitzone"
+
+#: config/system-config-date.desktop.in.h:1
+msgid "Set Date & Time"
+msgstr "Datum und Zeit einstellen"
+
+#. "System-Config-Date" shouldn't be translated here:
+#: config/system-config-date.desktop.in.h:3
+msgid "System-Config-Date (Set Date & Time)"
+msgstr "System-Config-Date (Datum und Zeit einstellen)"
+
+#: config/org.fedoraproject.config.date.policy.in.h:1
+msgid "Run System Config Date"
+msgstr "System Config Date ausführen"
+
+#: config/org.fedoraproject.config.date.policy.in.h:2
+msgid "Authentication is required to run system-config-date"
+msgstr "Man muss dazu berechtigt sein, system-config-date auszuführen"

@@ -1,0 +1,5 @@
+#This file contains a list of ntp servers to show in the system-config-date user interface.
+#It is not recommended that you modify this file by hand.
+
+clock.redhat.com
+clock2.redhat.com

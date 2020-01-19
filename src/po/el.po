@@ -1,0 +1,310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dimitrios Michelinakis <dimitris@michelinakis.gr>, 2006
+# Dimitris Glezos <dimitris@glezos.com>, 2006-2007
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# jiannis bonatakis <jbonatakis@gmail.com>, 2012-2013
+# Konstantinos Antonakoglou <anton.cost@gmail.com>, 2009
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2003-2004,2006
+# Nikos Charonitakis <charosn@her.fothnet.gr>, 2006
+# Simos Xenitellis <simos@hellug.gr>, 2002
+# thalia <saliyath@gmail.com>, 2010
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: http://fedorahosted.org/system-config-date\n"
+"POT-Creation-Date: 2012-12-10 17:18+0100\n"
+"PO-Revision-Date: 2013-04-29 09:35+0000\n"
+"Last-Translator: Dimitris Glezos <glezos@transifex.com>\n"
+"Language-Team: Greek <trans-el@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/date_gui.py:141
+msgid "Server"
+msgstr "Εξυπηρετητής"
+
+#: src/date_gui.py:168
+#, python-format
+msgid ""
+"The NTP daemon '%(ntp_daemon)s' or its init script '%(service_config)s' does"
+" not seem to be working properly, or its configuration file '%(ntp_config)s'"
+" could not be read.  system-config-date will exit now."
+msgstr "Ο δαίμονας NTP '%(ntp_daemon)s' ή το init script '%(service_config)s' δεν φαίνεται να λειτουργει σωστα, ή το αρχείο διαμόρφωσης '%(ntp_config)s' δε μπορεί να διαβαστεί. Το system-config-date θα τερματιστεί τώρα."
+
+#: src/date_gui.py:175
+#, python-format
+msgid ""
+"The NTP daemon '%(ntp_daemon)s' or its systemd unit configuration does not "
+"seem to be working properly, or its configuration file '%(ntp_config)s' "
+"could not be read.  system-config-date will exit now."
+msgstr "Ο δαίμονας NTP '%(ntp_daemon)s' ή η μονάδα διαμόρφωσης του systemd δε φαίνεται να δουλεύει κανονικά, ή το αρχείο διαμόρφωσης '%(ntp_config)s' δε μπορεί να διαβαστεί. Το system-config-date θα τερματιστεί τώρα."
+
+#: src/date_gui.py:191 src/scdMainWindow.py:349
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: src/date_gui.py:359
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr "Έλεγχος προσβασιμότητας διακομιστή NTP '%s'... "
+
+#: src/date_gui.py:380
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr "Ακυρώσατε τον έλεγχο προσβασιμότητας του διακομιστή NTP '%s'. Θέλετε οι αλλαγές να υλοποιηθούν?"
+
+#: src/date_gui.py:397
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr "Το σύστημα '%s' δεν είναι προσβάσιμο ή δεν είναι NTP διακομιστής. Θέλετε οι αλλαγές να υλοποιηθούν?"
+
+#: src/date_gui.py:432
+msgid "New NTP Server"
+msgstr "Νέος εξυπηρετητής NTP"
+
+#: src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "Ημερομηνία και ώρα"
+
+#: src/scdMainWindow.py:47 config/system-config-date.desktop.in.h:4
+msgid "Change system date and time"
+msgstr "Αλλαγή ημερομηνίας και ώρας συστήματος"
+
+#: src/scdMainWindow.py:65
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr "Αδύνατη η σύνδεση με έναν από τους ακόλουθους εξυπηρετητές ώρας:\n\n%s\n\nΕίτε κανένας δεν είναι διαθέσιμος είτε οι ρυθμίσεις firewall του υπολογιστή σας δεν επιτρέπουν συνδέσεις NTP. \n\nΘέλετε να αλλάξετε τις ρυθμίσεις σας για να παρακάμψετε αυτό το πρόβλημα τώρα;"
+
+#: src/scdMainWindow.py:98
+msgid "Failed to set time and date."
+msgstr "Αποτυχία στον ορισμό ώρας και ημερομηνίας."
+
+#: src/scdMainWindow.py:102
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr "Αποτυχία συγχρονισμού του ρολογιού υλικού. Αυτό μπορεί να συμβαίνει επειδή δεν είναι προσβάσιμο το ρολόι υλικού, π.χ. όταν λειτουργείτε σε εικονικό περιβάλλον."
+
+#: src/scdMainWindow.py:118
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "Παρακαλώ ορίστε ένα εξυπηρετητή NTP για χρήση ή εφαρμογή NTP broadcast."
+
+#: src/scdMainWindow.py:128
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr "Δεν μπορεί να γραφεί ούτε το αρχείο /etc/ntp.conf ή το αρχείο /etc/sysconfig/network.\nΟι ρυθμίσεις δεν άλλαξαν."
+
+#: src/scdMainWindow.py:166
+#, python-format
+msgid "Error while trying to fork child process: %(strerror)s"
+msgstr "Σφάλμα κατα τη προσπάθεια διακλάδωσης της υπο-διεργασίας: %(strerror)s"
+
+#: src/scdMainWindow.py:189
+msgid "Starting NTP service. Please wait."
+msgstr "Εκκίνηση υπηρεσίας NTP. Παρακαλώ περιμένετε."
+
+#: src/scdMainWindow.py:323
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr "Το πρόγραμμα προβολής βοήθειας δεν βρέθηκε. Για την προβολή βοήθειας χρειάζεται να εγκατασταθεί το πακέτο 'yelp'."
+
+#: src/scdMainWindow.py:351
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: src/scdMainWindow.py:353
+msgid "Info"
+msgstr "Πληροφορία"
+
+#: src/system-config-date.py:39
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr "Χρήση: system-config-date [ΕΠΙΛΟΓΕΣ]\nΕπιλογές χρήστη:\n-h|--help         Εμφάνιση αυτού του βοηθητικού μηνύματος\nΔεσμευμένες επιλογές:\n--page <δελίδα>    Εμφάνιση σελίδας <σελίδα>\n"
+
+#: src/system-config-date.py:51
+#, python-format
+msgid ""
+"Error while initializing GUI toolkit: %(error)s\n"
+"This program must be run in a graphical environment."
+msgstr "Σφάλμα κατα την αρχικοποίηση της εργαλειοθήκης GUI:  %(error)s⏎ Αυτό το πρόγραμμα πρέπει να τρέχει σε γραφικό περιβάλον."
+
+#: src/system-config-date.py:66 src/system-config-date.py:71
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "επιλογή(ες) '%s' δεν αναγνωρίστηκαν\n"
+
+#: src/timezone_map_gui.py:189
+msgid "Non-geographic timezones"
+msgstr "Μη-γεωγραφικές ζώνες ώρας"
+
+#: src/timezone_map_gui.py:273
+msgid ", "
+msgstr ", "
+
+#: src/timezone_map_gui.py:284
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "Επιλεγμένη πόλη: %(city)s (%(comments)s)"
+
+#: src/timezone_map_gui.py:289
+#, python-format
+msgid "Selected city: %s"
+msgstr "Επιλεγμένη πόλη: %s"
+
+#: src/timezone_map_gui.py:318 src/system-config-date.glade.h:22
+msgid "Please select the nearest city in your time zone:"
+msgstr "Παρακαλούμε επιλέξτε την πλησιέστερη πόλη στη ζώνη ώρας σας:"
+
+#: src/timezone_map_gui.py:358
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "Χρησιμοποιήστε το κουμπί 2 ή 3 για μετακίνηση και τον τροχό ολίσθησης για μεγέθυνση."
+
+#. TRANSLATORS: don't translate "System-Config-Date", the name of the
+#. application
+#: src/system-config-date.glade.h:2
+msgid "System-Config-Date - Configure Date, Time and Time Zone"
+msgstr "System-Config-Date - Διαμόρφωση Ημερομηνίας, Ώρας και Ζώνη Ώρας"
+
+#: src/system-config-date.glade.h:3
+msgid "Current date and time:"
+msgstr "Τρέχουσα ημερομηνία και ώρα"
+
+#: src/system-config-date.glade.h:4
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr "Ενεργοποιήστε αυτήν την επιλογή αν θέλετε να κρατήσετε την ώρα του συστήματος σας συγχρονισμένη με κάποιον NTP διακομιστή ώρας."
+
+#: src/system-config-date.glade.h:5
+msgid "S_ynchronize date and time over the network"
+msgstr "Συ_γχρονισμός ώρας και ημερομηνίας μέσω δικτύου"
+
+#: src/system-config-date.glade.h:6
+msgid "Manually set the date and time of your system:"
+msgstr "Χειροκίνητος ορισμός της ημερομηνίας και ώρας του συστήματος σας:"
+
+#: src/system-config-date.glade.h:7
+msgid "<b>_Date</b>"
+msgstr "<b>Η_μερομηνία</b>"
+
+#: src/system-config-date.glade.h:8
+msgid "_Hour : "
+msgstr "Ώ_ρα : "
+
+#: src/system-config-date.glade.h:9
+msgid "_Minute : "
+msgstr "_Λεπτό : "
+
+#: src/system-config-date.glade.h:10
+msgid "_Second : "
+msgstr "_Δευτερόλεπτο : "
+
+#: src/system-config-date.glade.h:11
+msgid "<b>Time</b>"
+msgstr "<b>Ώρα</b>"
+
+#: src/system-config-date.glade.h:12
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr "Συγχρονισμός της ημερομηνίας και ώρας του υπολογιστή σας μέ ένα απομακρυσμένο εξυπηρετητή ώρας που χρησιμοποιεί το Network Time Protocol:"
+
+#: src/system-config-date.glade.h:13
+msgid "<b>NTP Servers</b>"
+msgstr "<b>Εξυπηρετητές NTP</b>"
+
+#: src/system-config-date.glade.h:14
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr "Χρησιμοποιήστε την λειτουργία iburst που ελαχιστοποιεί τον χρόνο αρχικού συχγρονισμού αλλά δημιουργεί περισσότερο φόρτο στους εξυπηρετητές"
+
+#: src/system-config-date.glade.h:15
+msgid "_Speed up initial synchronization"
+msgstr "_Επιτάχυνση αρχικού συγχρονισμού"
+
+#: src/system-config-date.glade.h:16
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr "Ενεργοποιήστε αυτήν την επιλογή αν υπάρχει συσκευή, για παράδειγμα ασύρματο ρολόι, που συγχρονίζει την ώρα του υπολογιστή με μια έγκυρη πυγή ώρας."
+
+#: src/system-config-date.glade.h:17
+msgid "Use _Local Time Source"
+msgstr "Χρήση τοπικής ώρας ως πηγή"
+
+#: src/system-config-date.glade.h:18
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr "Ενεργοποιήστε αυτήν την επιλογή για να αναζητηθεί διακομιστής NTP στο τοπικό δίκτυο."
+
+#: src/system-config-date.glade.h:19
+msgid "Enable NTP _Broadcast"
+msgstr "Ενεργοποίηση NTP _Broadcast"
+
+#: src/system-config-date.glade.h:20
+msgid "Ad_vanced Options"
+msgstr "Προ_χωρημένες επιλογές"
+
+#: src/system-config-date.glade.h:21
+msgid "Date and _Time"
+msgstr "Ημερομηνία και ώ_ρα"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: src/system-config-date.glade.h:24
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr "Χρησιμοποιήστε αυτό αν θέλετε να αλλάξετε αυτόματα μεταξύ χειμερινής και θερινής ώρας. Μην το χρησιμοποιήσετε αυτό αν διαθέτετε λειτουργικά συστήματα σε αυτόν τον υπολογιστή τα οποία ρυθμίζουν το ρολόι υλικού για να το πετύχουν αυτό, πχ. Microsoft Windows(tm)."
+
+#: src/system-config-date.glade.h:25
+msgid "_System clock uses UTC"
+msgstr "Το ρολόι _συστήματος χρησιμοποιεί UTC"
+
+#: src/system-config-date.glade.h:26
+msgid "Time _Zone"
+msgstr "_Ζώνη ώρας"
+
+#: config/system-config-date.desktop.in.h:1
+msgid "Set Date & Time"
+msgstr "'Ορισε Ημερομηνία & Ώρα"
+
+#. "System-Config-Date" shouldn't be translated here:
+#: config/system-config-date.desktop.in.h:3
+msgid "System-Config-Date (Set Date & Time)"
+msgstr "System-Config-Date ('Ορισε Ημερομηνία & Ώρα)"
+
+#: config/org.fedoraproject.config.date.policy.in.h:1
+msgid "Run System Config Date"
+msgstr "Εκτέλεσε  System Config Date"
+
+#: config/org.fedoraproject.config.date.policy.in.h:2
+msgid "Authentication is required to run system-config-date"
+msgstr "Απαιτείται εξουσιδότηση για να τρέξει το system-config-date"

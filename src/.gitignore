@@ -1,0 +1,13 @@
+*.py[co]
+/system-config-date-*.tar.bz2
+/po/*.mo
+/po/timezones/*.mo
+/src/setup.py
+/src/build
+/src/system-config-date.glade.h
+/src/system-config-date.sh
+/config/system-config-date.desktop.in.h
+/config/ntp.conf.template
+/config/org.fedoraproject.config.date.policy
+/config/org.fedoraproject.config.date.policy.in.h
+/config/system-config-date.desktop

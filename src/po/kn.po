@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# shanky <prasad.mvs@gmail.com>, 2012
+# shankar <svenkate@redhat.com>, 2006
+# shankar <svenkate@redhat.com>, 2006-2007
+# shankar <svenkate@redhat.com>, 2007-2010
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-date\n"
+"Report-Msgid-Bugs-To: http://fedorahosted.org/system-config-date\n"
+"POT-Creation-Date: 2012-12-10 17:18+0100\n"
+"PO-Revision-Date: 2013-04-29 09:35+0000\n"
+"Last-Translator: Dimitris Glezos <glezos@transifex.com>\n"
+"Language-Team: Kannada (http://www.transifex.com/projects/p/fedora/language/kn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/date_gui.py:141
+msgid "Server"
+msgstr "ಪರಿಚಾರಕ"
+
+#: src/date_gui.py:168
+#, python-format
+msgid ""
+"The NTP daemon '%(ntp_daemon)s' or its init script '%(service_config)s' does"
+" not seem to be working properly, or its configuration file '%(ntp_config)s'"
+" could not be read.  system-config-date will exit now."
+msgstr "NTP ಡೀಮನ್ '%(ntp_daemon)s' ಅಥವ ಅದರ init ಸ್ಕ್ರಿಪ್ಟ್‍ '%(service_config)s' ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ, ಅಥವ ಅದರ ಸಂರಚನಾ ಕಡತವಾದಂತಹ '%(ntp_config)s' ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.  system-config-date ಈಗ ನಿರ್ಗಮಿಸುತ್ತದೆ."
+
+#: src/date_gui.py:175
+#, python-format
+msgid ""
+"The NTP daemon '%(ntp_daemon)s' or its systemd unit configuration does not "
+"seem to be working properly, or its configuration file '%(ntp_config)s' "
+"could not be read.  system-config-date will exit now."
+msgstr "NTP ಡೀಮನ್ '%(ntp_daemon)s' ಅಥವ ಅದರ systemd ಘಟಕ ಸಂರಚನೆಯು ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ, ಅಥವ ಅದರ ಸಂರಚನಾ ಕಡತವಾದಂತಹ '%(ntp_config)s' ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.  system-config-date ಈಗ ನಿರ್ಗಮಿಸುತ್ತದೆ."
+
+#: src/date_gui.py:191 src/scdMainWindow.py:349
+msgid "Error"
+msgstr "ದೋಷ"
+
+#: src/date_gui.py:359
+#, python-format
+msgid "Checking whether NTP server '%s' is reachable..."
+msgstr " '%s' NTP ಪರಿಚಾರಿಕ ದೂರಕಬಲ್ಲದೆ ಎಂದು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ..."
+
+#: src/date_gui.py:380
+#, python-format
+msgid ""
+"You cancelled checking whether NTP server '%s' is reachable. Do you still "
+"want your changes to take effect?"
+msgstr "NTP ಪರಿಚಾರಕ %s ಎಟುಕ ಬಲ್ಲುದೆ ಎಂಬ ತಪಾಸಣೆಯನ್ನು ನೀವು ರದ್ದು ಮಾಡಿದ್ದೀರ. ಆದರೂ ನೀವು ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ಜಾರಿಗೆ ತರಬೇಕೆ?"
+
+#: src/date_gui.py:397
+#, python-format
+msgid ""
+"Host '%s' is not reachable or doesn't act as an NTP server. Do you still "
+"want your changes to take effect?"
+msgstr "ಅತಿಥೇಯ '%s' ದೊರಕುತ್ತಿಲ್ಲ ಅಥವ NTP ಪರಿಚಾರಕವಾಗಿ ಕಾಯ೯ ನಿವ೯ಹಿಸುತ್ತಿಲ್ಲ. ಆದರೂ ನೀವು ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ಜಾರಿಗೆ ತರಬೇಕೆ?"
+
+#: src/date_gui.py:432
+msgid "New NTP Server"
+msgstr "ಹೊಸ NTP ಪರಿಚಾರಕ"
+
+#: src/scdMainWindow.py:46
+msgid "Date and Time"
+msgstr "ದಿನಾಂಕ ಹಾಗು ಸಮಯ"
+
+#: src/scdMainWindow.py:47 config/system-config-date.desktop.in.h:4
+msgid "Change system date and time"
+msgstr "ವ್ಯವಸ್ಥೆಯ ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಬದಲಾಯಿಸು "
+
+#: src/scdMainWindow.py:65
+#, python-format
+msgid ""
+"Couldn't connect to one of these time servers:\n"
+"\n"
+"%s\n"
+"\n"
+"Either none of them are available or the firewall settings on your computer are blocking NTP connections.\n"
+"\n"
+"Do you want to change your configuration to work around this issue now?"
+msgstr "ಇವುಗಳಲ್ಲಿ ಯಾವುದೇ ಸಮಯ ಪರಿಚಾರಕಕ್ಕೆ ಜೋಡಿಸಲಾಗುತ್ತಿಲ್ಲ:\n\n%s\n\nಇವುಗಳಲ್ಲಿ ಯಾವುದೂ ಸದ್ಯಕ್ಕೆ ದೊರಕುತ್ತಿಲ್ಲ ಇಲ್ಲವೇ ನಿಮ್ಮ ಗಣಕದಲ್ಲಿನ ಫೈರ್ ವಾಲ್ NTP ಸಂಪರ್ಕಗಳನ್ನು ತಡೆಯುತ್ತಿದೆ. ಇದಕ್ಕಾಗಿ ಈಗ ನೀವು ನಿಮ್ಮ ಸಂರಚನೆಯನ್ನು ಬದಲಾಯಿಸ ಬೇಕೆ?"
+
+#: src/scdMainWindow.py:98
+msgid "Failed to set time and date."
+msgstr "ಸಮಯ ಹಾಗು ದಿನಾಂಕವನ್ನು ಹೊಂದಿಸಲು ವಿಫಲವಾಗಿದೆ."
+
+#: src/scdMainWindow.py:102
+msgid ""
+"Failed to synchronize hardware clock. This may be because there is no "
+"hardware clock accessible, e.g. when running in a virtualized environment."
+msgstr "ಯಂತ್ರಾಂಶ ಗಣಕವನ್ನು ಹೊಂದಿಸಲು ವಿಫಲವಾಗಿದೆ. ಇದಕ್ಕೆ ಕಾರಣ, ಯಾವುದೆ ಗಡಿಯಾರವು ನಿಲುಕದೆ ಇರುವುದೆ ಆಗಿದೆ, ಉದಾ. ವಾಸ್ತವೀಕರಣಗೊಂಡ ವಾತಾವರಣದಲ್ಲಿ ಚಲಾಯಿಸುವಾಗ."
+
+#: src/scdMainWindow.py:118
+msgid "Please specify an NTP server to use or enable NTP broadcast."
+msgstr "ಇಲ್ಲಿ ಉಪಯೋಗಿಸಲು ಒಂದು NTP ಪರಿಚಾರಕವನ್ನು ಸೂಚಿಸಿ ಅಥವ NTP ಪ್ರಸಾರವನ್ನು ಅನುವುಗೊಳಿಸಿ."
+
+#: src/scdMainWindow.py:128
+msgid ""
+"Couldn't write either /etc/ntp.conf or /etc/sysconfig/network.\n"
+"Configuration unchanged."
+msgstr "/etc/ntp.conf ಅಥವ /etc/sysconfig/network ಗೆ ಬರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\nಸಂರಚನೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ."
+
+#: src/scdMainWindow.py:166
+#, python-format
+msgid "Error while trying to fork child process: %(strerror)s"
+msgstr ""
+
+#: src/scdMainWindow.py:189
+msgid "Starting NTP service. Please wait."
+msgstr "NTP ಸೇವೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ. ದಯವಿಟ್ಟು ಕಾಯಿರಿ. "
+
+#: src/scdMainWindow.py:323
+msgid ""
+"The help viewer could not be found. To be able to view help you need to "
+"install the 'yelp' package."
+msgstr "ಸಹಾಯ ನೋಡುಗ ಕಂಡುಬರುತ್ತಿಲ್ಲ. ಸಹಾಯವನ್ನು ಕಾಣಲು ನೀವು 'yelp' ಪ್ಯಾಕೇಜ್ ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#: src/scdMainWindow.py:351
+msgid "Warning"
+msgstr "ಎಚ್ಚರಿಕೆ"
+
+#: src/scdMainWindow.py:353
+msgid "Info"
+msgstr "ಮಾಹಿತಿ"
+
+#: src/system-config-date.py:39
+msgid ""
+"Usage: system-config-date [options]\n"
+"Enduser options:\n"
+"-h|--help        Display this help message\n"
+"Reserved options:\n"
+"--page <page>    Display page <page>\n"
+msgstr "ಬಳಕೆ: system-config-date [ಆಯ್ಕೆಗಳು]\nಬಳಕೆದಾರನ ಆಯ್ಕೆ:\n-h|--ಸಹಾಯ        ಈ ಸಹಾಯ ಸಂದೇಶವನ್ನು ತೋರಿಸು\nಕಾಯ್ದಿರಿಸಿದ ಆಯ್ಕೆಗಳು:\n--ಪುಟ <page>    ಪುಟವನ್ನು ತೋರಿಸು <page>\n"
+
+#: src/system-config-date.py:51
+#, python-format
+msgid ""
+"Error while initializing GUI toolkit: %(error)s\n"
+"This program must be run in a graphical environment."
+msgstr ""
+
+#: src/system-config-date.py:66 src/system-config-date.py:71
+#, python-format
+msgid "option(s) '%s' not recognized\n"
+msgstr "'%s'ನ ಆಯ್ಕೆ (ಗಳು) ಅನುಮೋದಿಸಿಲ್ಲ\n"
+
+#: src/timezone_map_gui.py:189
+msgid "Non-geographic timezones"
+msgstr "ಭೌಗೋಳಿಕವಲ್ಲದ ಕಾಲಮಾನಗಳು"
+
+#: src/timezone_map_gui.py:273
+msgid ", "
+msgstr ", "
+
+#: src/timezone_map_gui.py:284
+#, python-format
+msgid "Selected city: %(city)s (%(comments)s)"
+msgstr "ಆಯ್ಕೆಮಾಡಲಾದ ಊರು: %(city)s (%(comments)s)"
+
+#: src/timezone_map_gui.py:289
+#, python-format
+msgid "Selected city: %s"
+msgstr "ಆರಿಸಲಾದ ಊರು: %s"
+
+#: src/timezone_map_gui.py:318 src/system-config-date.glade.h:22
+msgid "Please select the nearest city in your time zone:"
+msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಾಲವಲಯದಲ್ಲಿ ಸಮೀಪದ ಊರನ್ನು ಆರಿಸಿ:"
+
+#: src/timezone_map_gui.py:358
+msgid "Use button 2 or 3 for panning and the scrollwheel to zoom in or out."
+msgstr "ಪ್ಯಾನಿಂಗ್ ಹಾಗು ಸ್ಕ್ರಾಲ್‍ವಿಲ್ ಅನ್ನು ಹಿಗ್ಗಿಸಲು ಅಥವ ಕುಗ್ಗಿಸಲು ಗುಂಡಿ 2 ಅಥವ 3 ಅನ್ನು ಬಳಸಿ."
+
+#. TRANSLATORS: don't translate "System-Config-Date", the name of the
+#. application
+#: src/system-config-date.glade.h:2
+msgid "System-Config-Date - Configure Date, Time and Time Zone"
+msgstr "System-Config-Date - ಸಂರಚನಾ ದಿನಾಂಕ, ಸಮಯ ಮತ್ತು ಕಾಲ ವಲಯ"
+
+#: src/system-config-date.glade.h:3
+msgid "Current date and time:"
+msgstr "ಪ್ರಸಕ್ತ ದಿನಾಂಕ ಹಾಗು ಸಮಯ:"
+
+#: src/system-config-date.glade.h:4
+msgid ""
+"Use this option if you want to keep your computer's clock synchronized with "
+"an NTP time server."
+msgstr "ನಿಮ್ಮ ಗಣಕದ ಗಡಿಯಾರವು NTP ಸಮಯವು ದೂರದ ಸಮಯ ಪರಿಚಾರಕದೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆ ಇರಬೇಕೆಂದರೆ ಈ ಆಯ್ಕೆಯನ್ನು ಉಪಯೋಗಿಸಿ."
+
+#: src/system-config-date.glade.h:5
+msgid "S_ynchronize date and time over the network"
+msgstr "ಜಾಲಬಂಧದ ದಿನಾಂಕ ಹಾಗು ಸಮಯದೊಂದಿಗೆ ಮೇಳೈಸು(_y)"
+
+#: src/system-config-date.glade.h:6
+msgid "Manually set the date and time of your system:"
+msgstr "ನಿಮ್ಮ ಗಣಕದ ದಿನಾಂಕ ಹಾಗು ಸಮಯದೊಂದಿಗೆ ಕೈಯಾರೆ ಹೊಂದಿಸಿ:"
+
+#: src/system-config-date.glade.h:7
+msgid "<b>_Date</b>"
+msgstr "<b>ದಿನಾಂಕ(_D)</b>"
+
+#: src/system-config-date.glade.h:8
+msgid "_Hour : "
+msgstr "ಗಂಟೆ (_H) :"
+
+#: src/system-config-date.glade.h:9
+msgid "_Minute : "
+msgstr "ನಿಮಿಷ (_M) : "
+
+#: src/system-config-date.glade.h:10
+msgid "_Second : "
+msgstr "ಸೆಕೆಂಡು (_S) :"
+
+#: src/system-config-date.glade.h:11
+msgid "<b>Time</b>"
+msgstr "<b>ಸಮಯ</b>"
+
+#: src/system-config-date.glade.h:12
+msgid ""
+"Synchronize date and time on your computer with a remote time server using "
+"the Network Time Protocol:"
+msgstr "Network Time Protocol ಅನ್ನು ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಗಣಕದ ದಿನಾಂಕ ಹಾಗು ಸಮಯವನ್ನು ದೂರಸ್ಥ ಸಮಯ ಪರಿಚಾರಕದೊಂದಿಗೆ ಮೇಳೈಸಿ:"
+
+#: src/system-config-date.glade.h:13
+msgid "<b>NTP Servers</b>"
+msgstr "<b>NTP ಪರಿಚಾರಕಗಳು</b>"
+
+#: src/system-config-date.glade.h:14
+msgid ""
+"Use iburst mode which takes less time for initial synchronization but "
+"generates more load on servers."
+msgstr "ಆರಂಭಿಕ ಮೇಳೈಕೆಗೆ ಕಡಿಮೆ ಸಮಯವನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಆದರೆ ಪರಿಚಾರಕಗಳ ಮೇಲೆ ಹೆಚ್ಚು ಹೊರೆಯನ್ನು ಹಾಕುವ iburst ಕ್ರಮವನ್ನು ಬಳಸಿ."
+
+#: src/system-config-date.glade.h:15
+msgid "_Speed up initial synchronization"
+msgstr "ಆರಂಭಿಕ ಮೇಳೈಕೆಯನ್ನು ತ್ವರಿತಗೊಳಿಸು(_S)"
+
+#: src/system-config-date.glade.h:16
+msgid ""
+"Use this option if you have e.g. a radio controlled clock device that "
+"synchronizes your computer's clock with an authoritative time source."
+msgstr "ಎಲ್ಲಿಯಾದರೂ ಒಂದು ರೇಡಿಯೋ ನಿಯಂತ್ರಿತ ಉಪಕರಣದಂತಹ ಸಾಧನವು  ನಿಮ್ಮ ಗಣಕದ ಗಡಿಯಾರವನ್ನು ಒಂದು ಅಧೀಕೃತ ಸಮಯ ಮೂಲದೊಂದಿಗೆ ಹೊಂದಾಣಿಸುತ್ತಿದ್ದರೆ ಈ ಆಯ್ಕೆಯನ್ನು ಉಪಯೋಗಿಸಿ."
+
+#: src/system-config-date.glade.h:17
+msgid "Use _Local Time Source"
+msgstr "ಸ್ಥಳೀಯ ಸಮಯ ಆಕರವನ್ನು ಉಪಯೋಗಿಸು (_L)"
+
+#: src/system-config-date.glade.h:18
+msgid ""
+"Use this option if your computer should broadcast for an NTP server on the "
+"local subnet."
+msgstr "ನಿಮ್ಮ ಗಣಕವು ಸ್ಥಳೀಯ ಉಪಜಾಲದ ಒಂದು NTP ಪರಿಚಾರಕಕ್ಕಾಗಿ ಪ್ರಸಾರ ಮಾಡಬೇಕೆಂದರೆ ಈ ಆಯ್ಕೆಯನ್ನು ಉಪಯೋಗಿಸಿ."
+
+#: src/system-config-date.glade.h:19
+msgid "Enable NTP _Broadcast"
+msgstr "NTP ಪ್ರಸಾರಣವನ್ನು ಪ್ರವೃತ್ತಗೊಳಿಸು (_B)"
+
+#: src/system-config-date.glade.h:20
+msgid "Ad_vanced Options"
+msgstr "ಸುಧಾರಿತ ಆಯ್ಕೆಗಳು(_v)"
+
+#: src/system-config-date.glade.h:21
+msgid "Date and _Time"
+msgstr "ದಿನಾಂಕ ಹಾಗು ಸಮಯ(_T)"
+
+#. The times are called "winter time" and "summer time" in some localities.
+#: src/system-config-date.glade.h:24
+msgid ""
+"Use this if you want to automatically switch between normal and daylight "
+"savings time. Don't use this if you have other operating systems on this "
+"computer which adjust the hardware clock to achieve this, e.g. Microsoft "
+"Windows(tm)."
+msgstr "ನೀವು ಸಾಮಾನ್ಯ ಹಾಗೂ ಡೇಲೈಟ್ ಉಳಿತಾಯ ಸಮಯಗಳ ನಡುವೆ ಯಾಂತ್ರಿಕವಾಗಿ ಪರಸ್ಪರ ಬದಲಾಯಿಸ ಬೇಕೆಂದರೆ ಇದನ್ನು ಉಪಯೋಗಿಸಿ. ಈ ಗಣಕದಲ್ಲಿ ಬೇರೆ ಕಾರ್ಯವ್ಯವಸ್ಥೆಗಳಿದ್ದರೆ ಇದನ್ನು ಉಪಯೋಗಿಸಬೇಡಿ, ಏಕೆಂದರೆ ಇದು ಹೀಗೆ ಮಾಡಲು ಯಂತ್ರಾಂಶ ಗಡಿಯಾರದಲ್ಲಿ ಬದಲಾವಣೆಯನ್ನು ಮಾಡುತ್ತದೆ, ಉದಾ. Microsoft Windows(tm)"
+
+#: src/system-config-date.glade.h:25
+msgid "_System clock uses UTC"
+msgstr "ವ್ಯವಸ್ಥಾ ಗಡಿಯಾರವು ಯುಟಿಸಿಯನ್ನು ಉಪಯೋಗಿಸುತ್ತದೆ (_S)"
+
+#: src/system-config-date.glade.h:26
+msgid "Time _Zone"
+msgstr "ಕಾಲ ವಲಯ (_Z)"
+
+#: config/system-config-date.desktop.in.h:1
+msgid "Set Date & Time"
+msgstr "ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಹೊಂದಿಸಿ"
+
+#. "System-Config-Date" shouldn't be translated here:
+#: config/system-config-date.desktop.in.h:3
+msgid "System-Config-Date (Set Date & Time)"
+msgstr "System-Config-Date (ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಹೊಂದಿಸಿ)"
+
+#: config/org.fedoraproject.config.date.policy.in.h:1
+msgid "Run System Config Date"
+msgstr ""
+
+#: config/org.fedoraproject.config.date.policy.in.h:2
+msgid "Authentication is required to run system-config-date"
+msgstr ""
